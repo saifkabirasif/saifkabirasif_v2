@@ -25,3 +25,7 @@ module:
       target: assets
     - source: static
       target: assets
+
+caches:
+  images:
+    dir: :cacheDir/images
