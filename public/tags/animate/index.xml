@@ -1,34 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Animate on My New Hugo Site</title>
-    <link>http://localhost:1515/tags/animate/</link>
-    <description>Recent content from My New Hugo Site</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    
-    <managingEditor>saif.kabir.asif@gmail.com (Saif)</managingEditor>
-    <webMaster>saif.kabir.asif@gmail.com (Saif)</webMaster>
-    
-    <copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright>
-    
-    <lastBuildDate>Mon, 26 Apr 2021 10:00:00 +0600</lastBuildDate>
-    
-    
-    <atom:link href="http://localhost:1515/tags/animate/index.xml" rel="self" type="application/rss&#43;xml" />
-    
-
-    
-    
-
-    <item>
-      <title>#TidyTuesday Netflix going global</title>
-      <link>http://localhost:1515/post/2021-04-26-tidy_tuesday_april_23_2021/</link>
-      <pubDate>Mon, 26 Apr 2021 10:00:00 &#43;0600</pubDate>
-      <author>saif.kabir.asif@gmail.com (Saif)</author>
-      <guid>http://localhost:1515/post/2021-04-26-tidy_tuesday_april_23_2021/</guid>
-      <description>
-        <![CDATA[<h1>#TidyTuesday Netflix going global</h1><p>Author: Saif(saif.kabir.asif@gmail.com)</p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Animate on Saif</title><link>https://example.org/tags/animate/</link><description>Recent content from Saif</description><generator>Hugo</generator><language>en-us</language><managingEditor>saif.kabir.asif@gmail.com (Saif)</managingEditor><webMaster>saif.kabir.asif@gmail.com (Saif)</webMaster><copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright><lastBuildDate>Mon, 26 Apr 2021 10:00:00 +0600</lastBuildDate><atom:link href="https://example.org/tags/animate/index.xml" rel="self" type="application/rss+xml"/><item><title>#TidyTuesday Netflix going global</title><link>https://example.org/post/2021-04-26-tidy_tuesday_april_23_2021/</link><pubDate>Mon, 26 Apr 2021 10:00:00 +0600</pubDate><author>saif.kabir.asif@gmail.com (Saif)</author><guid>https://example.org/post/2021-04-26-tidy_tuesday_april_23_2021/</guid><description>
+<![CDATA[<h1>#TidyTuesday Netflix going global</h1><p>Author: Saif(saif.kabir.asif@gmail.com)</p>
         
           <style>
   .navbar{
@@ -198,10 +169,4 @@ pre code {
 
 <p>This is my first attempt at a TidyTuesday dataset. TidyTuesday is a weekly data project aimed at the R ecosystem. This week we got the Netflix dataset. Here, I am trying to observe how Netflix shows have expanded beyond border to have movies/TV shows from across the globe.</p>
         
-        <hr><p>Published on 2021-04-26 at <a href='http://localhost:1515/'>My New Hugo Site</a>, last modified on 2021-04-26</p>]]>
-      </description>
-      
-    </item>
-    
-  </channel>
-</rss>
+        <hr><p>Published on 2021-04-26 at <a href='https://example.org/'>Saif</a>, last modified on 2021-04-26</p>]]></description></item></channel></rss>

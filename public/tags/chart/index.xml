@@ -1,34 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Chart on My New Hugo Site</title>
-    <link>http://localhost:1515/tags/chart/</link>
-    <description>Recent content from My New Hugo Site</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    
-    <managingEditor>saif.kabir.asif@gmail.com (Saif)</managingEditor>
-    <webMaster>saif.kabir.asif@gmail.com (Saif)</webMaster>
-    
-    <copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright>
-    
-    <lastBuildDate>Thu, 19 Dec 2019 10:53:00 +0600</lastBuildDate>
-    
-    
-    <atom:link href="http://localhost:1515/tags/chart/index.xml" rel="self" type="application/rss&#43;xml" />
-    
-
-    
-    
-
-    <item>
-      <title>Visualizing Bangladesh Premier League Football 2019 </title>
-      <link>http://localhost:1515/post/2019-12-20-bpl_football_2019/</link>
-      <pubDate>Thu, 19 Dec 2019 10:53:00 &#43;0600</pubDate>
-      <author>saif.kabir.asif@gmail.com (Saif)</author>
-      <guid>http://localhost:1515/post/2019-12-20-bpl_football_2019/</guid>
-      <description>
-        <![CDATA[<h1>Visualizing Bangladesh Premier League Football 2019 </h1><p>Author: Saif(saif.kabir.asif@gmail.com)</p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Chart on Saif</title><link>https://example.org/tags/chart/</link><description>Recent content from Saif</description><generator>Hugo</generator><language>en-us</language><managingEditor>saif.kabir.asif@gmail.com (Saif)</managingEditor><webMaster>saif.kabir.asif@gmail.com (Saif)</webMaster><copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright><lastBuildDate>Thu, 19 Dec 2019 10:53:00 +0600</lastBuildDate><atom:link href="https://example.org/tags/chart/index.xml" rel="self" type="application/rss+xml"/><item><title>Visualizing Bangladesh Premier League Football 2019</title><link>https://example.org/post/2019-12-20-bpl_football_2019/</link><pubDate>Thu, 19 Dec 2019 10:53:00 +0600</pubDate><author>saif.kabir.asif@gmail.com (Saif)</author><guid>https://example.org/post/2019-12-20-bpl_football_2019/</guid><description>
+<![CDATA[<h1>Visualizing Bangladesh Premier League Football 2019 </h1><p>Author: Saif(saif.kabir.asif@gmail.com)</p>
         
           <style>
 
@@ -52,10 +23,4 @@
 </ul>
 <img src="/img/BPL_Football_2019-12-18.gif" alt="BPL Football 2019">
         
-        <hr><p>Published on 2019-12-19 at <a href='http://localhost:1515/'>My New Hugo Site</a>, last modified on 2019-12-19</p>]]>
-      </description>
-      
-    </item>
-    
-  </channel>
-</rss>
+        <hr><p>Published on 2019-12-19 at <a href='https://example.org/'>Saif</a>, last modified on 2019-12-19</p>]]></description></item></channel></rss>

@@ -1,34 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Tidymodels on My New Hugo Site</title>
-    <link>http://localhost:1515/tags/tidymodels/</link>
-    <description>Recent content from My New Hugo Site</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    
-    <managingEditor>saif.kabir.asif@gmail.com (Saif)</managingEditor>
-    <webMaster>saif.kabir.asif@gmail.com (Saif)</webMaster>
-    
-    <copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright>
-    
-    <lastBuildDate>Fri, 30 Jul 2021 19:00:00 +0600</lastBuildDate>
-    
-    
-    <atom:link href="http://localhost:1515/tags/tidymodels/index.xml" rel="self" type="application/rss&#43;xml" />
-    
-
-    
-    
-
-    <item>
-      <title>Predicting Olympics medalists</title>
-      <link>http://localhost:1515/post/2021-07-30-tidy_tuesday_july_27_2021/</link>
-      <pubDate>Fri, 30 Jul 2021 19:00:00 &#43;0600</pubDate>
-      <author>saif.kabir.asif@gmail.com (Saif)</author>
-      <guid>http://localhost:1515/post/2021-07-30-tidy_tuesday_july_27_2021/</guid>
-      <description>
-        <![CDATA[<h1>Predicting Olympics medalists</h1><p>Author: Saif(saif.kabir.asif@gmail.com)</p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tidymodels on Saif</title><link>https://example.org/tags/tidymodels/</link><description>Recent content from Saif</description><generator>Hugo</generator><language>en-us</language><managingEditor>saif.kabir.asif@gmail.com (Saif)</managingEditor><webMaster>saif.kabir.asif@gmail.com (Saif)</webMaster><copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright><lastBuildDate>Fri, 30 Jul 2021 19:00:00 +0600</lastBuildDate><atom:link href="https://example.org/tags/tidymodels/index.xml" rel="self" type="application/rss+xml"/><item><title>Predicting Olympics medalists</title><link>https://example.org/post/2021-07-30-tidy_tuesday_july_27_2021/</link><pubDate>Fri, 30 Jul 2021 19:00:00 +0600</pubDate><author>saif.kabir.asif@gmail.com (Saif)</author><guid>https://example.org/post/2021-07-30-tidy_tuesday_july_27_2021/</guid><description>
+<![CDATA[<h1>Predicting Olympics medalists</h1><p>Author: Saif(saif.kabir.asif@gmail.com)</p>
         
           <style>
   .navbar{
@@ -201,21 +172,8 @@ pre code {
 
 <p>After a few weeks of hiatus from #TidyTuesday, I am back with 27-July’21 dataset which is about Olympics. In this exercise, I will try to develop a model to predict medalists using a bagged tree model. This post is intended to workflow through a bare-bones model. So, we are not really focused on the results.</p>
         
-        <hr><p>Published on 2021-07-30 at <a href='http://localhost:1515/'>My New Hugo Site</a>, last modified on 2021-07-30</p>]]>
-      </description>
-      
-    </item>
-    
-    
-
-    <item>
-      <title>Tidymodels with GLMNet for Kaggle competition</title>
-      <link>http://localhost:1515/post/2021-07-22-sliced_s01e02_glmnet/</link>
-      <pubDate>Thu, 22 Jul 2021 21:00:00 &#43;0600</pubDate>
-      <author>saif.kabir.asif@gmail.com (Saif)</author>
-      <guid>http://localhost:1515/post/2021-07-22-sliced_s01e02_glmnet/</guid>
-      <description>
-        <![CDATA[<h1>Tidymodels with GLMNet for Kaggle competition</h1><p>Author: Saif(saif.kabir.asif@gmail.com)</p>
+        <hr><p>Published on 2021-07-30 at <a href='https://example.org/'>Saif</a>, last modified on 2021-07-30</p>]]></description></item><item><title>Tidymodels with GLMNet for Kaggle competition</title><link>https://example.org/post/2021-07-22-sliced_s01e02_glmnet/</link><pubDate>Thu, 22 Jul 2021 21:00:00 +0600</pubDate><author>saif.kabir.asif@gmail.com (Saif)</author><guid>https://example.org/post/2021-07-22-sliced_s01e02_glmnet/</guid><description>
+<![CDATA[<h1>Tidymodels with GLMNet for Kaggle competition</h1><p>Author: Saif(saif.kabir.asif@gmail.com)</p>
         
           <style>
   .navbar{
@@ -394,21 +352,8 @@ pre code {
 <h2>Introduction</h2>
 <p>Lately I have been indulged in learning all things tidymodels in my after office hours. But I was missing something - the effectiveness of my learning journey. Committing to large scale competition was unwieldy but then came #Sliced - a data science problem solving 2-hour sprint with small datasets.</p>
         
-        <hr><p>Published on 2021-07-22 at <a href='http://localhost:1515/'>My New Hugo Site</a>, last modified on 2021-07-22</p>]]>
-      </description>
-      
-    </item>
-    
-    
-
-    <item>
-      <title>Tidymodels : Exploring iris</title>
-      <link>http://localhost:1515/post/2020-08-04-classification_tidymodels/</link>
-      <pubDate>Tue, 04 Aug 2020 10:01:00 &#43;0600</pubDate>
-      <author>saif.kabir.asif@gmail.com (Saif)</author>
-      <guid>http://localhost:1515/post/2020-08-04-classification_tidymodels/</guid>
-      <description>
-        <![CDATA[<h1>Tidymodels : Exploring iris</h1><p>Author: Saif(saif.kabir.asif@gmail.com)</p>
+        <hr><p>Published on 2021-07-22 at <a href='https://example.org/'>Saif</a>, last modified on 2021-07-22</p>]]></description></item><item><title>Tidymodels : Exploring iris</title><link>https://example.org/post/2020-08-04-classification_tidymodels/</link><pubDate>Tue, 04 Aug 2020 10:01:00 +0600</pubDate><author>saif.kabir.asif@gmail.com (Saif)</author><guid>https://example.org/post/2020-08-04-classification_tidymodels/</guid><description>
+<![CDATA[<h1>Tidymodels : Exploring iris</h1><p>Author: Saif(saif.kabir.asif@gmail.com)</p>
         
           <style>
   .navbar{
@@ -780,10 +725,4 @@ summary {
 
 <p><strong>Caret</strong> has long been the go-to package for machine learning with R. But it was not quite standardized like python counterpart scikit-learn. With <strong>tidymodels</strong>, this is about to change with <strong>caret</strong> developer <strong>Max Kuhn</strong> spearheading the project. In this project, I will run through the <strong>iris</strong> dataset to showcase the simplicity of tidymodels.</p>
         
-        <hr><p>Published on 2020-08-04 at <a href='http://localhost:1515/'>My New Hugo Site</a>, last modified on 2020-08-04</p>]]>
-      </description>
-      
-    </item>
-    
-  </channel>
-</rss>
+        <hr><p>Published on 2020-08-04 at <a href='https://example.org/'>Saif</a>, last modified on 2020-08-04</p>]]></description></item></channel></rss>

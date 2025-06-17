@@ -1,42 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Visualization on My New Hugo Site</title>
-    <link>http://localhost:1515/tags/visualization/</link>
-    <description>Recent content from My New Hugo Site</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    
-    <managingEditor>saif.kabir.asif@gmail.com (Saif)</managingEditor>
-    <webMaster>saif.kabir.asif@gmail.com (Saif)</webMaster>
-    
-    <copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright>
-    
-    <lastBuildDate>Wed, 01 Dec 2021 00:53:00 +0600</lastBuildDate>
-    
-    
-    <atom:link href="http://localhost:1515/tags/visualization/index.xml" rel="self" type="application/rss&#43;xml" />
-    
-
-    
-    
-
-    <item>
-      <title>Tableau Tales : Data Price</title>
-      <link>http://localhost:1515/post/2021-12-01-tableau_data_price_2021/</link>
-      <pubDate>Wed, 01 Dec 2021 00:53:00 &#43;0600</pubDate>
-      <author>saif.kabir.asif@gmail.com (Saif)</author>
-      <guid>http://localhost:1515/post/2021-12-01-tableau_data_price_2021/</guid>
-      <description>
-        <![CDATA[<h1>Tableau Tales : Data Price</h1><p>Author: Saif(saif.kabir.asif@gmail.com)</p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Visualization on Saif</title><link>https://example.org/tags/visualization/</link><description>Recent content from Saif</description><generator>Hugo</generator><language>en-us</language><managingEditor>saif.kabir.asif@gmail.com (Saif)</managingEditor><webMaster>saif.kabir.asif@gmail.com (Saif)</webMaster><copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright><lastBuildDate>Wed, 01 Dec 2021 00:53:00 +0600</lastBuildDate><atom:link href="https://example.org/tags/visualization/index.xml" rel="self" type="application/rss+xml"/><item><title>Tableau Tales : Data Price</title><link>https://example.org/post/2021-12-01-tableau_data_price_2021/</link><pubDate>Wed, 01 Dec 2021 00:53:00 +0600</pubDate><author>saif.kabir.asif@gmail.com (Saif)</author><guid>https://example.org/post/2021-12-01-tableau_data_price_2021/</guid><description>
+<![CDATA[<h1>Tableau Tales : Data Price</h1><p>Author: Saif(saif.kabir.asif@gmail.com)</p>
         
           <p>For last couple of years, I have been using Tableau extensively for professional purposes. I found Tableau to be  extremely user friendly with very lenient learning curve although automations and integration with R and Python leave much to be desired. The good thing is that there is a public version of Tableau available for free.</p>
 <p>For my first public dashboard, I have chosen to visualize data price per gigabyte of internet across 200+ countries. The data has been  sourced from the excellent <a href="https://www.cable.co.uk">report</a> by cable.co.uk.</p>
         
-        <hr><p>Published on 2021-12-01 at <a href='http://localhost:1515/'>My New Hugo Site</a>, last modified on 2021-12-01</p>]]>
-      </description>
-      
-    </item>
-    
-  </channel>
-</rss>
+        <hr><p>Published on 2021-12-01 at <a href='https://example.org/'>Saif</a>, last modified on 2021-12-01</p>]]></description></item></channel></rss>

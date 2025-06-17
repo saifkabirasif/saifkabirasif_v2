@@ -8,15 +8,30 @@
     {{- $posts := (where .Page.Site.RegularPages "Section" "in" .Site.Params.mainSections) -}}
     <div class="widget tagcloud">
       {{- $counter := 0 -}}
-      {{- range .Site.Taxonomies.tags -}}
+      
+      {{- $data := .Site.Taxonomies.tags.ByCount -}}
+      {{- $min := len (index ($data).Reverse 0).Pages -}}
+      {{- $max := len (index ($data).Reverse 0).Pages -}}
+      {{- $delta := sub $max $min -}}
+
+      {{- $fontSizeMax := .Site.Params.tagCloud.fontSizeMax -}}
+      {{- $fontSizeMin := .Site.Params.tagCloud.fontSizeMin -}}
+      {{- $fontDelta := sub $fontSizeMax $fontSizeMin -}}
+      {{- $fontStep := div $fontDelta $delta -}}
+
+      <!-- 6+18/22*22 -->
+      {{- range $item := ($data) -}}
         {{- if lt $counter $.Site.Params.tagcloud_limits -}}
-          {{- $weight := add 10 (mul 10 (div .Count (len $posts))) -}}
+          {{- $tagCount := len $item.Pages -}}
+          {{- $weight := add 10 (mul 10 (div .Count ($tagCount))) -}}
+          {{- $weight := math.Floor (add $fontSizeMin (mul $fontStep $tagCount)) -}}
           <a
             style="font-size:{{ $weight }}px"
             href="{{ .Page.RelPermalink }}"
             aria-label="{{ i18n "tag" }}: {{ .Page.Title }}"
-            >{{ .Page.Title }}</a
-          >
+            >{{ .Page.Title }}
+            <span class="tagcloud-count">({{$tagCount}})</span> 
+          </a>
           {{- $counter = add $counter 1 -}}
         {{- end -}}
       {{- end -}}

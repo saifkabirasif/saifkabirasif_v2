@@ -30,6 +30,10 @@
   --color-mobile-nav-background: #fff;
   --color-wrap: #fff;
   --color-sticky: #fff;
+  --color-subtitle: #06905b;
+  --color-sidebar-menu-link-wrap-hover: #06905b38;
+  --color-sidebar-link-active-hover: #06905b38;
+  --color-sidebar-background: #06905b;
   --color-h2-border: #eee;
   --color-meta-shadow: var(--red-6);
   --color-hover-shadow: rgba(120, 120, 120, 0.15);
@@ -1223,7 +1227,7 @@ table.badge_table a:hover {
 .post-wrap-right {
   width: 100%;
   height: 230px;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   position: relative;
   border-radius: 10px;
   background: var(--color-wrap);
@@ -1384,7 +1388,7 @@ table.badge_table a:hover {
 }
 
 .post-title {
-  padding: 20px 0;
+  padding: 10px 0;
   color: var(--color-link);
   font-size: 25px;
   letter-spacing: 1px;
@@ -1392,6 +1396,19 @@ table.badge_table a:hover {
   overflow: hidden;
   text-overflow: ellipsis;
   transition: color 0.3s;
+}
+
+.post-subtitle {
+  padding: 5px 0;
+  color: var(--color-subtitle);
+  font-size: 16px;
+  letter-spacing: 1px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: color 0.3s;
+  font-weight: 500;
+  font-style: italic;
 }
 
 .post-sticky {
@@ -3618,7 +3635,7 @@ mjx-container::-webkit-scrollbar {
 }
 
 .sidebar-menu-link-wrap:hover {
-  border: 10px var(--color-h2-after) double;
+  border: 10px var(--color-sidebar-menu-link-wrap-hover) double;
 }
 
 .sidebar-menu-link-wrap:hover .sidebar-menu-icon:before {
@@ -3683,7 +3700,7 @@ mjx-container::-webkit-scrollbar {
 }
 
 .link-active {
-  background: var(--red-0);
+  background: var(--color-sidebar-background);
   border: 10px var(--color-wrap) double;
   box-shadow: 0 0 10px 3px var(--color-red-6-shadow);
   opacity: 0.8;
@@ -3691,6 +3708,7 @@ mjx-container::-webkit-scrollbar {
 
 .link-active:hover {
   opacity: 1;
+  border: 10px var(--color-sidebar-link-active-hover) double;
 }
 
 .link-active .sidebar-menu-link {
@@ -3931,6 +3949,12 @@ mjx-container::-webkit-scrollbar {
 .tagcloud a {
   display: inline-block;
   margin: 5px 5px 0 0;
+}
+
+.tagcloud .tagcloud-count {
+  font-size: 8px;
+  margin: 0px;
+  color: mediumseagreen;
 }
 
 [data-theme="dark"] .widget-wrap {

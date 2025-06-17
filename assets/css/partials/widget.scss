@@ -3,6 +3,14 @@
   margin: 5px 5px 0 0;
 }
 
+.tagcloud .tagcloud-count {
+    font-size: 8px;
+    margin: 0px;
+    color: mediumseagreen;
+}
+
+
+
 [data-theme="dark"] .widget-wrap {
   box-shadow: 0 0 10px 3px var(--color-hover-shadow);
 }

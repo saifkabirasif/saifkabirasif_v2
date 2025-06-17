@@ -189,6 +189,8 @@
           {{- $subtitle = .Title -}}
         {{- else if and (eq .Type "tags") (not (eq .Title "Tags")) -}}
           {{- $subtitle = .Title -}}
+        {{- else if .Params.subtitle -}}
+          {{- $subtitle = .Params.subtitle -}}
         {{- end -}}
         <h2 id="subtitle-wrap" data-aos="{{ .Site.Params.animation.options.header.subTitle }}">
           {{- if $subtitle -}}

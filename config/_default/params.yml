@@ -2,9 +2,19 @@
 # Basic Configuration
 ########################################
 
+
+
+# Pagination 
+
 pagination:
   pagerSizeArchive: 999
   pagerSizeHome: 7
+
+# Tag Cloud
+tagCloud:
+  fontSizeMax: 24.0
+  fontSizeMin: 6.0
+
 
 # main menu navigation
 # for more icon information, please visit https://github.com/D-Sketon/hexo-theme-reimu/issues/30
@@ -33,7 +43,7 @@ timeFormat: "2006-01-02 15:04:05"
 author: Saif
 email: saif.kabir.asif@gmail.com
 description: ""
-subtitle: ""
+subtitle: "An Engineer by Profession! Data Enthusiast by Passion!"
 
 banner: "images/banner.webp"
 # You can also write it in the form of the following url
@@ -99,7 +109,7 @@ copyright:
 #   All website licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></div>
 
 footer:
-  since: 2020 # 2020-current year
+  since: 2017 # 2020-current year
   powered: true
   count: true
   busuanzi: true

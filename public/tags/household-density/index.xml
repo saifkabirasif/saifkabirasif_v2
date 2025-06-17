@@ -1,34 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Household Density on My New Hugo Site</title>
-    <link>http://localhost:1515/tags/household-density/</link>
-    <description>Recent content from My New Hugo Site</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    
-    <managingEditor>saif.kabir.asif@gmail.com (Saif)</managingEditor>
-    <webMaster>saif.kabir.asif@gmail.com (Saif)</webMaster>
-    
-    <copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright>
-    
-    <lastBuildDate>Sat, 09 Feb 2019 10:01:00 +0600</lastBuildDate>
-    
-    
-    <atom:link href="http://localhost:1515/tags/household-density/index.xml" rel="self" type="application/rss&#43;xml" />
-    
-
-    
-    
-
-    <item>
-      <title>Visualizing Bangladesh #02</title>
-      <link>http://localhost:1515/post/2019-02-09-viz_bd_gdp/</link>
-      <pubDate>Sat, 09 Feb 2019 10:01:00 &#43;0600</pubDate>
-      <author>saif.kabir.asif@gmail.com (Saif)</author>
-      <guid>http://localhost:1515/post/2019-02-09-viz_bd_gdp/</guid>
-      <description>
-        <![CDATA[<h1>Visualizing Bangladesh #02</h1><p>Author: Saif(saif.kabir.asif@gmail.com)</p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Household Density on Saif</title><link>https://example.org/tags/household-density/</link><description>Recent content from Saif</description><generator>Hugo</generator><language>en-us</language><managingEditor>saif.kabir.asif@gmail.com (Saif)</managingEditor><webMaster>saif.kabir.asif@gmail.com (Saif)</webMaster><copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright><lastBuildDate>Sat, 09 Feb 2019 10:01:00 +0600</lastBuildDate><atom:link href="https://example.org/tags/household-density/index.xml" rel="self" type="application/rss+xml"/><item><title>Visualizing Bangladesh #02</title><link>https://example.org/post/2019-02-09-viz_bd_gdp/</link><pubDate>Sat, 09 Feb 2019 10:01:00 +0600</pubDate><author>saif.kabir.asif@gmail.com (Saif)</author><guid>https://example.org/post/2019-02-09-viz_bd_gdp/</guid><description>
+<![CDATA[<h1>Visualizing Bangladesh #02</h1><p>Author: Saif(saif.kabir.asif@gmail.com)</p>
         
           <!DOCTYPE html>
 
@@ -249,21 +220,8 @@ $(document).ready(function () {
 </style>
 <p>It has been almost a year and a half since I did my entry on <a href="https://saifkabirasif.com/2017/10/28/Viz_BD_HH/">Visualizing Bangladesh</a>. This is the second entry highlighting GDP distribution by sector at current prices for 2017-18. The source data can be found here in <a href="http://bbs.portal.gov.bd/sites/default/files/files/bbs.portal.gov.bd/page/057b0f3b_a9e8_4fde_b3a6_6daec3853586/F2_GDP_2017_18.pdf">Bangladesh Bureau of Statistics</a>.</p>
         
-        <hr><p>Published on 2019-02-09 at <a href='http://localhost:1515/'>My New Hugo Site</a>, last modified on 2019-02-09</p>]]>
-      </description>
-      
-    </item>
-    
-    
-
-    <item>
-      <title>Visualizing Bangladesh #01</title>
-      <link>http://localhost:1515/post/2017-10-28-viz_bd_hh/</link>
-      <pubDate>Sat, 28 Oct 2017 10:01:00 &#43;0600</pubDate>
-      <author>saif.kabir.asif@gmail.com (Saif)</author>
-      <guid>http://localhost:1515/post/2017-10-28-viz_bd_hh/</guid>
-      <description>
-        <![CDATA[<h1>Visualizing Bangladesh #01</h1><p>Author: Saif(saif.kabir.asif@gmail.com)</p>
+        <hr><p>Published on 2019-02-09 at <a href='https://example.org/'>Saif</a>, last modified on 2019-02-09</p>]]></description></item><item><title>Visualizing Bangladesh #01</title><link>https://example.org/post/2017-10-28-viz_bd_hh/</link><pubDate>Sat, 28 Oct 2017 10:01:00 +0600</pubDate><author>saif.kabir.asif@gmail.com (Saif)</author><guid>https://example.org/post/2017-10-28-viz_bd_hh/</guid><description>
+<![CDATA[<h1>Visualizing Bangladesh #01</h1><p>Author: Saif(saif.kabir.asif@gmail.com)</p>
         
           <!DOCTYPE html>
 
@@ -436,10 +394,4 @@ $(document).ready(function () {
 </style>
 <p>While searching for data related to Bangladesh, I stumbled upon lots of obstacles - shoddy unresponsive websites, badly formatted tables nightmarishly embedded in pdfs and little to no visualization. To allay this, we are starting this new series with the aim to visualize Bangladesh- one graph at a time.</p>
         
-        <hr><p>Published on 2017-10-28 at <a href='http://localhost:1515/'>My New Hugo Site</a>, last modified on 2017-10-28</p>]]>
-      </description>
-      
-    </item>
-    
-  </channel>
-</rss>
+        <hr><p>Published on 2017-10-28 at <a href='https://example.org/'>Saif</a>, last modified on 2017-10-28</p>]]></description></item></channel></rss>

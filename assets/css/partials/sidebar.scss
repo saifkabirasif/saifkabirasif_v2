@@ -378,7 +378,7 @@
   margin: 8px auto;
 
   &:hover {
-    border: 10px var(--color-h2-after) double;
+    border: 10px var(--color-sidebar-menu-link-wrap-hover) double;
   }
 
   &:hover .sidebar-menu-icon:before {
@@ -433,13 +433,14 @@
 }
 
 .link-active {
-  background: var(--red-0);
+  background: var(--color-sidebar-background);
   border: 10px var(--color-wrap) double;
   box-shadow: 0 0 10px 3px var(--color-red-6-shadow);
   opacity: 0.8;
 
   &:hover {
     opacity: 1;
+    border: 10px var(--color-sidebar-link-active-hover) double;
   }
 
   .sidebar-menu-link {

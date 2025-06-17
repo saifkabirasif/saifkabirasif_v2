@@ -1,34 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Developers on My New Hugo Site</title>
-    <link>http://localhost:1515/tags/developers/</link>
-    <description>Recent content from My New Hugo Site</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    
-    <managingEditor>saif.kabir.asif@gmail.com (Saif)</managingEditor>
-    <webMaster>saif.kabir.asif@gmail.com (Saif)</webMaster>
-    
-    <copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright>
-    
-    <lastBuildDate>Sat, 22 Jul 2017 12:01:00 +0600</lastBuildDate>
-    
-    
-    <atom:link href="http://localhost:1515/tags/developers/index.xml" rel="self" type="application/rss&#43;xml" />
-    
-
-    
-    
-
-    <item>
-      <title>Wii U Developers: One developer show was simply not enough  </title>
-      <link>http://localhost:1515/post/2017-07-22-wiiu_devs/</link>
-      <pubDate>Sat, 22 Jul 2017 12:01:00 &#43;0600</pubDate>
-      <author>saif.kabir.asif@gmail.com (Saif)</author>
-      <guid>http://localhost:1515/post/2017-07-22-wiiu_devs/</guid>
-      <description>
-        <![CDATA[<h1>Wii U Developers: One developer show was simply not enough  </h1><p>Author: Saif(saif.kabir.asif@gmail.com)</p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Developers on Saif</title><link>https://example.org/tags/developers/</link><description>Recent content from Saif</description><generator>Hugo</generator><language>en-us</language><managingEditor>saif.kabir.asif@gmail.com (Saif)</managingEditor><webMaster>saif.kabir.asif@gmail.com (Saif)</webMaster><copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright><lastBuildDate>Sat, 22 Jul 2017 12:01:00 +0600</lastBuildDate><atom:link href="https://example.org/tags/developers/index.xml" rel="self" type="application/rss+xml"/><item><title>Wii U Developers: One developer show was simply not enough</title><link>https://example.org/post/2017-07-22-wiiu_devs/</link><pubDate>Sat, 22 Jul 2017 12:01:00 +0600</pubDate><author>saif.kabir.asif@gmail.com (Saif)</author><guid>https://example.org/post/2017-07-22-wiiu_devs/</guid><description>
+<![CDATA[<h1>Wii U Developers: One developer show was simply not enough  </h1><p>Author: Saif(saif.kabir.asif@gmail.com)</p>
         
           <!DOCTYPE html>
 
@@ -209,10 +180,4 @@ $(document).ready(function () {
 </style>
 <p>This is the second portion of our Wii U analysis and is focused on developers. You can check out first part of the Wii U here-</p>
         
-        <hr><p>Published on 2017-07-22 at <a href='http://localhost:1515/'>My New Hugo Site</a>, last modified on 2017-07-22</p>]]>
-      </description>
-      
-    </item>
-    
-  </channel>
-</rss>
+        <hr><p>Published on 2017-07-22 at <a href='https://example.org/'>Saif</a>, last modified on 2017-07-22</p>]]></description></item></channel></rss>
