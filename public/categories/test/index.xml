@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Test on My New Hugo Site</title>
+    <link>http://localhost:1515/categories/test/</link>
+    <description>Recent content from My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    
+    <managingEditor>saif.kabir.asif@gmail.com (Saif)</managingEditor>
+    <webMaster>saif.kabir.asif@gmail.com (Saif)</webMaster>
+    
+    <copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright>
+    
+    <lastBuildDate>Mon, 16 Jun 2025 23:57:07 +0600</lastBuildDate>
+    
+    
+    <atom:link href="http://localhost:1515/categories/test/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+
+    
+    
+
+    <item>
+      <title>Test</title>
+      <link>http://localhost:1515/post/test/</link>
+      <pubDate>Mon, 16 Jun 2025 23:57:07 &#43;0600</pubDate>
+      <author>saif.kabir.asif@gmail.com (Saif)</author>
+      <guid>http://localhost:1515/post/test/</guid>
+      <description>
+        <![CDATA[<h1>Test</h1><p>Author: Saif(saif.kabir.asif@gmail.com)</p>
+        
+          <p>Test</p>
+        
+        <hr><p>Published on 2025-06-16 at <a href='http://localhost:1515/'>My New Hugo Site</a>, last modified on 2025-06-16</p>]]>
+      </description>
+      
+        <category>Test</category>
+      
+    </item>
+    
+  </channel>
+</rss>

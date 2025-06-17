@@ -1,0 +1,643 @@
+<!doctype html>
+<html
+  lang="en-us" 
+  data-theme-mode="auto"
+  >
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1515&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8" />
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1, shrink-to-fit=no"
+/><title>
+  Exploring Orange : A Beginner Friendly Data Mining Toolkit | Saif
+</title>
+<meta
+  name="description"
+  content=""
+/><script>
+  window.siteConfig = JSON.parse("{\"anchor_icon\":false,\"base\":\"http://localhost:1515/\",\"clipboard\":{\"copyright\":{\"count\":50,\"enable\":false,\"license_type\":\"by-nc-sa\"},\"fail\":{\"en\":\"Copy failed (ﾟ⊿ﾟ)ﾂ\",\"ja\":\"コピー失敗 (ﾟ⊿ﾟ)ﾂ\",\"zh-cn\":\"复制失败 (ﾟ⊿ﾟ)ﾂ\",\"zh-tw\":\"複製失敗 (ﾟ⊿ﾟ)ﾂ\"},\"success\":{\"en\":\"Copy successfully (*^▽^*)\",\"ja\":\"コピー成功 (*^▽^*)\",\"zh-cn\":\"复制成功 (*^▽^*)\",\"zh-tw\":\"複製成功 (*^▽^*)\"}},\"code_block\":{\"expand\":true},\"icon_font\":\"4552607_0khxww3tj3q9\",\"outdate\":{\"daysago\":180,\"enable\":false,\"message\":{\"en\":\"This article was last updated on {time}. Please note that the content may no longer be applicable.\",\"ja\":\"この記事は最終更新日：{time}。記載内容が現在有効でない可能性がありますのでご注意ください。\",\"zh-cn\":\"本文最后更新于 {time}，请注意文中内容可能已不适用。\",\"zh-tw\":\"本文最後更新於 {time}，請注意文中內容可能已不適用。\"}}}");
+  
+</script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  rel="preload"
+  as="style"
+  href="https://fonts.googleapis.com/css?family=Mulish:400,400italic,700,700italic%7cNoto%20Serif%20SC:400,400italic,700,700italic%7c&amp;display=swap"
+/>
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Mulish:400,400italic,700,700italic%7cNoto%20Serif%20SC:400,400italic,700,700italic%7c&amp;display=swap"
+  media="print"
+  onload="this.media='all'"
+/>
+<link
+    rel="preload"
+    href="//at.alicdn.com/t/c/font_4552607_0khxww3tj3q9.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin="anonymous"
+  /><link rel="stylesheet" href="/css/loader.css" />
+<meta property="og:type" content="website" />
+  <meta property="og:title" content="Exploring Orange : A Beginner Friendly Data Mining Toolkit | Saif" />
+  <meta
+    property="og:description"
+    content=""
+  />
+  <meta property="og:url" content="http://localhost:1515/post/2019-05-25-orange3_tutorial/" />
+  <meta
+    property="og:site_name"
+    content="My New Hugo Site"
+  />
+  <meta
+    property="og:image"
+    content="/"
+  />
+  <meta property="article:author" content="Saif" />
+  <meta property="article:published_time" content="2019-05-25T08:53:00&#43;06:00" />
+  <meta property="article:modified_time" content="2019-05-25T08:53:00&#43;06:00" /><meta property="article:tag" content="tutorialMachine learningOrange 3Kaggle House PriceData mining" /><meta name="twitter:card" content="summary" />
+  <meta name="twitter:image" content="/" />
+<link rel="shortcut icon" href="/favicon.ico"><link rel="stylesheet" href="/css/main.css" />
+<link
+    rel="preload"
+    as="style"
+    href="https://npm.webcache.cn/photoswipe@5.4.4/dist/photoswipe.css"
+    integrity="sha384-IfxC36XL/toUyJ939C73PcgMuRzAZuIzZxE38drsmO5p6jD7ei&#43;Zx/1oA/0l8ysE" crossorigin="anonymous"onload="this.onload=null;this.rel='stylesheet'"
+  /><link
+    rel="preload"
+    as="style"
+    href="https://npm.webcache.cn/katex@0.16.22/dist/katex.min.css"
+    integrity="sha384-5TcZemv2l/9On385z///&#43;d7MSYlvIEw9FuZTIdZ14vJLqWphw7e7ZPuOiCHJcFCP" crossorigin="anonymous"onload="this.onload=null;this.rel='stylesheet'"
+  /><script
+    src="https://npm.webcache.cn/pace-js@1.2.4/pace.min.js"
+    integrity="sha384-k6YtvFUEIuEFBdrLKJ3YAUbBki333tj1CSUisai5Cswsg9wcLNaPzsTHDswp4Az8" crossorigin="anonymous"></script><link
+    rel="stylesheet"
+    href="https://npm.webcache.cn/@reimujs/aos@0.1.0/dist/aos.css"
+    integrity="sha384-4NN3fZ5AokFyHuoihl7A9qWaCt&#43;HsAtOaUsXwJGRb4/SMBtFr2vcNSHR5E8dg0Wk" crossorigin="anonymous"/></head>
+  <body><div id='loader'>
+    <div class="loading-left-bg loading-bg"></div>
+    <div class="loading-right-bg loading-bg"></div>
+    <div class="spinner-box">
+      <div class="loading-taichi rotate"><svg width="150" height="150" viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="https://www.w3.org/2000/svg" shape-rendering="geometricPrecision">
+            <path d="M303.5 432A80 80 0 0 1 291.5 592A80 80 0 0 1 303.5 432z" fill="var(--red-1, #ff5252)" />
+            <path d="M512 65A447 447 0 0 1 512 959L512 929A417 417 0 0 0 512 95A417 417 0 0 0 512 929L512 959A447 447 0 0 1 512 65z 
+          M512 95A417 417 0 0 1 929 512A208.5 208.5 0 0 1 720.5 720.5L720.5 592A80 80 0 0 0 720.5 432A80 80 0 0 0 720.5 592L720.5 720.5A208.5 208.5 0 0 1 512 512A208.5 208.5 0 0 0 303.5 303.5A208.5 208.5 0 0 0 95 512A417 417 0 0 1 512 95z" fill="var(--red-1, #ff5252)" />
+          </svg></div><div class="loading-word">Loading...</div>
+    </div>
+  </div>
+  </div>
+  <script>
+    var time = null;
+    var startLoading = () => {
+      time = Date.now();
+      document.getElementById('loader').classList.remove("loading");
+    }
+    var endLoading = () => {
+      if (!time) {
+        document.body.style.overflow = 'auto';
+        document.getElementById('loader').classList.add("loading");
+      } else {
+        if (Date.now() - time > 500) {
+          time = null;
+          document.body.style.overflow = 'auto';
+          document.getElementById('loader').classList.add("loading");
+        } else {
+          setTimeout(endLoading, 500 - (Date.now() - time));
+          time = null;
+        }
+      }
+    }
+    window.addEventListener('DOMContentLoaded', endLoading);
+    document.getElementById('loader').addEventListener('click', endLoading);
+  </script><div id="copy-tooltip" style="pointer-events: none; opacity: 0; transition: all 0.2s ease; position: fixed;top: 50%;left: 50%;z-index: 999;transform: translate(-50%, -50%);color: white;background: rgba(0, 0, 0, 0.5);padding: 10px 15px;border-radius: 10px;">
+</div>
+<div id="lang-tooltip" style="pointer-events: none; opacity: 0; transition: all 0.2s ease; position: fixed;top: 50%;left: 50%;z-index: 999;transform: translate(-50%, -50%);color: white;background: rgba(0, 0, 0, 0.5);padding: 10px 15px;border-radius: 10px;">
+This article does not have a corresponding language version
+</div><div id="container">
+      <div id="wrap"><div id="header-nav">
+  <nav id="main-nav"><span class="main-nav-link-wrap">
+        <div class='main-nav-icon icon rotate'>&#xe62b;</div>
+        <a class="main-nav-link" href="/">Home</a>
+      </span><span class="main-nav-link-wrap">
+        <div class='main-nav-icon icon rotate'>&#xe62b;</div>
+        <a class="main-nav-link" href="/archives">Posts</a>
+      </span><span class="main-nav-link-wrap">
+        <div class='main-nav-icon icon rotate'>&#xe62b;</div>
+        <a class="main-nav-link" href="/about">About</a>
+      </span><span class="main-nav-link-wrap">
+        <div class='main-nav-icon icon rotate'>&#xe62b;</div>
+        <a class="main-nav-link" href="/learning">Learning</a>
+      </span><a id="main-nav-toggle" class="nav-icon"></a>
+  </nav>
+  <nav id="sub-nav"></nav></div>
+<header id="header"><picture></picture><img  fetchpriority="high" src="/images/banner.webp" alt="Exploring Orange : A Beginner Friendly Data Mining Toolkit"><div id="header-outer">
+    <div id="header-title"><a href="/" id="logo">
+            <h1 data-aos="slide-up">Exploring Orange : A Beginner Friendly Data Mining Toolkit</h1>
+          </a><h2 id="subtitle-wrap" data-aos="slide-down"></h2></div>
+  </div>
+</header><div id="content"
+          class="sidebar-left"
+            ><aside id="sidebar"><div class="sidebar-wrapper wrap-sticky">
+    <div
+      class="sidebar-wrap"
+      data-aos="fade-up"
+    ><div class="sidebar-toc-sidebar"><div class="sidebar-toc">
+  <h3 class="toc-title">Contents</h3>
+  <div class="sidebar-toc-wrapper toc-div-class">
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#">What is Orange</a></li>
+        <li><a href="#">Where do I get it</a></li>
+        <li><a href="#">Our objective today</a></li>
+        <li><a href="#">How it works</a></li>
+        <li><a href="#">Loading data</a></li>
+        <li><a href="#">Exploring the data</a></li>
+        <li><a href="#">Building the model</a></li>
+        <li><a href="#">Predicting the unknown</a></li>
+        <li><a href="#">Results</a></li>
+        <li><a href="#">Final thoughts</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</div></div>
+          <div class="sidebar-common-sidebar hidden"><div class="sidebar-author">
+  <img
+    data-src="/avatar/avatar.jpg"
+    data-sizes="auto"
+    alt="Saif"
+    class="lazyload"
+  />
+  <div class="sidebar-author-name">Saif</div>
+  <div class="sidebar-description"></div>
+</div>
+<div class="sidebar-state">
+  <div class="sidebar-state-article">
+    <div>Posts</div><div class="sidebar-state-number">39</div>
+  </div>
+  <div class="sidebar-state-category">
+    <div>Categories</div>
+    <div class="sidebar-state-number">
+      1
+    </div>
+  </div>
+  <div class="sidebar-state-tag">
+    <div>Tags</div>
+    <div class="sidebar-state-number">103</div>
+  </div>
+</div>
+<div class="sidebar-social"><div class="icon-email sidebar-social-icon">
+      <a
+        href="mailto:saif.kabir.asif@gmail.com"
+        itemprop="url"
+        target="_blank"
+        aria-label="email"
+        rel="noopener external nofollow noreferrer"
+      ></a>
+    </div><div class="icon-linkedin sidebar-social-icon">
+      <a
+        href="https://www.linkedin.com/in/saifkbr"
+        itemprop="url"
+        target="_blank"
+        aria-label="linkedin"
+        rel="noopener external nofollow noreferrer"
+      ></a>
+    </div></div>
+<div class="sidebar-menu"><div class="sidebar-menu-link-wrap">
+      <a
+        class="sidebar-menu-link-dummy"
+        href="/"
+        aria-label="Home"
+      ></a>
+      <div class='sidebar-menu-icon icon rotate'>&#xe62b;</div>
+      <div class="sidebar-menu-link">Home</div>
+    </div><div class="sidebar-menu-link-wrap">
+      <a
+        class="sidebar-menu-link-dummy"
+        href="/archives"
+        aria-label="Posts"
+      ></a>
+      <div class='sidebar-menu-icon icon rotate'>&#xe62b;</div>
+      <div class="sidebar-menu-link">Posts</div>
+    </div><div class="sidebar-menu-link-wrap">
+      <a
+        class="sidebar-menu-link-dummy"
+        href="/about"
+        aria-label="About"
+      ></a>
+      <div class='sidebar-menu-icon icon rotate'>&#xe62b;</div>
+      <div class="sidebar-menu-link">About</div>
+    </div><div class="sidebar-menu-link-wrap">
+      <a
+        class="sidebar-menu-link-dummy"
+        href="/learning"
+        aria-label="Learning"
+      ></a>
+      <div class='sidebar-menu-icon icon rotate'>&#xe62b;</div>
+      <div class="sidebar-menu-link">Learning</div>
+    </div></div>
+</div><div class="sidebar-btn-wrapper" style="position:static">
+            <div class="sidebar-toc-btn current"></div>
+            <div class="sidebar-common-btn"></div>
+          </div></div>
+  </div>
+
+  <div class="sidebar-widget"></div></aside>
+<section id="main"><article
+  class="h-entry article"
+  itemprop="blogPost"
+  itemscope
+  itemtype="https://schema.org/BlogPosting"
+>
+  <div
+    class="article-inner"
+    data-aos="fade-up"
+  >
+    <div class="article-meta"><div class="article-date">
+  <span
+    class="article-date-link"
+    data-aos="zoom-in"
+  >
+    <time datetime="2019-05-25 08:53:00 &#43;0600 &#43;06" itemprop="datePublished"
+      >2019-05-25</time
+    >
+    <time style="display: none;" id="post-update-time"
+      >2019-05-25</time
+    >
+  </span>
+</div>
+<div class="article-category"></div>
+</div>
+    <div class="hr-line"></div><div class="e-content article-entry" itemprop="articleBody"><style>
+    article img {
+        max-height: 100% !important;
+
+```css
+}
+
+h3 {
+    color: #41b0a4 !important;
+    font-weight: bolder !important;
+    }
+
+a {
+    color: rgb(65, 175, 164);
+    border-bottom: 1px solid #e4e6ca
+
+  }
+
+.navbar{
+    background-image: linear-gradient(#4ca2d4, #4c9dd4 60%, #0a3d7a);
+  }
+```
+
+</style>
+<p>Lately, machine learning has become the buzzword in business community and rightly so due to the immense opportunities it offers. But one hurdle absolute beginners face is learning a new language like R or Python. Yes! they are absolutely necessary if you want to control and tune every single aspect of your workflow, But for beginners,  quickly getting to something tangible is more important to keep up the enthusiasm of learning. Today I will go through one such tool- Orange - which is perfect for teaching machine learning to beginners without getting into nitty-gritty of programming.</p>
+<h3 id="" >
+<a class="header-anchor" href="#"></a>
+What is Orange
+</h3><p>Orange is a data visualization, machine learning and data mining toolkit with a visual programming front-end. It is open source and has been around since 1996. The analysis is done through connecting widgets which performs different functions like reading files, showing feature statistics, building models, evaluating etc. Moreover, it is available as a Python library if you intend to delve deeper into finer tuning.</p>
+<h3 id="" >
+<a class="header-anchor" href="#"></a>
+Where do I get it
+</h3><p>You can follow the installation instruction from the <a href="https://orange.biolab.si">official website</a>. It is also available with standard <a href="https://www.anaconda.com/distribution/">Conda distribution</a> .
+Orange version 3.20.1 was used for this tutorial.</p>
+<h3 id="" >
+<a class="header-anchor" href="#"></a>
+Our objective today
+</h3><p>We are going to build a simple workflow to predict house prices based on a given dataset with a random forest model. We will be using the <a href="https://www.kaggle.com/c/house-prices-advanced-regression-techniques">Kaggle House Prices dataset</a>. As this is a beginner friendly tutorial, the objective is to demonstrate the workflow in Orange3 and churning out a model fast is first priority. Hence, we will not delve into the abyss of granular imputation (will use barebones imputation) ,feature engineering and hyperparameter tuning.</p>
+<h3 id="" >
+<a class="header-anchor" href="#"></a>
+How it works
+</h3><p>After launching Orange, you will be welcomed by the following screen. In the left are slew of widgets neatly organized in categories based on their purposes. The big white space is your playground where you drag and drop the widgets, connect and configure them to create your own workflow. Double-clicking on any widget will bring up its corresponding properties where you can tweak different parameters.</p>
+<img src="/img/articles/20190525_Orange/1.jpg" alt="Workspace"><h3 id="" >
+<a class="header-anchor" href="#"></a>
+Loading data
+</h3><p>Just drag the <strong>File</strong> widget into workspace, double click to open the properties and select the training dataset. That&rsquo;s it, data is loaded and you can see the features at the bottom. The variable which we want to predict is <em>SalePrice</em>. Scroll down  and select its role as target.</p>
+<img src="/img/articles/20190525_Orange/2.jpg" alt="Load Data"><p>Then change the role of  <em>id</em> variable to meta as it just not a predictor, just tag for identification.</p>
+<img src="/img/articles/20190525_Orange/3.jpg" alt="Select Target"><h3 id="" >
+<a class="header-anchor" href="#"></a>
+Exploring the data
+</h3><p>We drag to more widgets - <strong>Data Table</strong> and <strong>Feature Statistics</strong> and connect with our loaded data. <strong>Data Table</strong> shows the data you loaded.</p>
+<img src="/img/articles/20190525_Orange/4.jpg" alt="Checking features"><p><strong>Feature statistics</strong> widget shows handy details on each column. We observe that lots of data are missing.</p>
+<img src="/img/articles/20190525_Orange/5.jpg" alt="Feature stats"><p>Let&rsquo;s do some imputation. Drag the <strong>Impute</strong> widget and connect it with the data.</p>
+<img src="/img/articles/20190525_Orange/6.jpg" alt="Imputation"><p>As said earlier, we will do barebones (aka the easy way out) imputation by taking average values if missing value is numeric and most frequent value if it is categorical. Of course, orange is capable of handling each feature individually and different imputation techniques are essential for a better model. But for this tutorial, we will stick to simple.</p>
+<img src="/img/articles/20190525_Orange/6.1.jpg" alt="Imputation"><p>After imputation, again we drag another <strong>Feature Statistics</strong> widgets and connect it to the output of <strong>Impute</strong> widget. As we can see, no more missing values.</p>
+<img src="/img/articles/20190525_Orange/7.jpg" alt="Feature stats"><h3 id="" >
+<a class="header-anchor" href="#"></a>
+Building the model
+</h3><p>Before going for predictions with the test set, we are going to divide the training data for validation. For this we add a new widget <strong>Data Sampler</strong>.</p>
+<img src="/img/articles/20190525_Orange/8.jpg" alt="Data partioning"><p>In the <strong>Data Sampler</strong> properties, you can specify different sampling type.  For simplicity of understanding, I have gone for fixed partitioning but k-fold cross validation is more robust and likely to yield better results.</p>
+<img src="/img/articles/20190525_Orange/9.jpg" alt="Data Partition"><p><strong>Data sampler</strong> outputs two separate datasets - data sample which will be used to train a model/learner and remaining data will be used as validation set. Next, we drag the <strong>Random Forest</strong> learner and connect data sample to it. The random forest learner contains several parameters to tune like number of trees, tree depth, minimum child tree size etc. I have set the maximum number of trees to 200 and minimum child tree size to 10 for this exercise.</p>
+<img src="/img/articles/20190525_Orange/10.jpg" alt="Model"><p>After that,  we add <strong>Test &amp; Score</strong> widget which is used to evaluate our learner&rsquo;s performance against the validation dataset we created from by <strong>Data Sample</strong>. In the widget, learner goes as model input, data sample as train data and remaining data as test data/validation set.</p>
+<img src="/img/articles/20190525_Orange/11.jpg" alt="Test and Score"><p>Double clicking the <strong>Test &amp; Score</strong> reveals the model evaluation metrics like RMSE, R-squared etc. Judging by the results, it seems a decent enough model considering little to no imputation and feature engineering done.</p>
+<img src="/img/articles/20190525_Orange/12.jpg" alt="Score"><h3 id="" >
+<a class="header-anchor" href="#"></a>
+Predicting the unknown
+</h3><p>Now that our model is done, let&rsquo;s predict based on test data. Again, we load train data through <strong>File</strong> widget and change <em>id</em> to meta.</p>
+<img src="/img/articles/20190525_Orange/13.jpg" alt="Test data"><p>Next, we directly connect the test data to a new widget called <strong>Predictions</strong> which does the magic of predicting. We also connect our <strong>Random Forest</strong> learner output as the model to use for predictions.</p>
+<img src="/img/articles/20190525_Orange/14.jpg" alt="Predictions"><p>That&rsquo;s it our  prediction is done. We add another widget <strong>Select Columns</strong> to get only the predictions against id and use <strong>Data Table</strong> to view the results as below.</p>
+<img src="/img/articles/20190525_Orange/15.jpg" alt="Save"><p>By adding the <strong>Save Data</strong> widget we can save the data in different formats.</p>
+<img src="/img/articles/20190525_Orange/16.jpg" alt="Save"><h3 id="" >
+<a class="header-anchor" href="#"></a>
+Results
+</h3><p>Although it was a pretty weak model building where we skipped many major steps, our model did decent in the Kaggle leaderboard with a score of <strong>0.15110</strong> which places it at around 3000th among 4700 submissions at the time of writing.</p>
+<img src="/img/articles/20190525_Orange/17.jpg" alt="Kaggle"><h3 id="" >
+<a class="header-anchor" href="#"></a>
+Final thoughts
+</h3><p>As we have seen in this tutorial, it does not take whole lot of programming prowess to churn out a machine learning model but if you want to improve the model further it requires granular control on every component and there comes the programming chops and statistical know-how. For the keen explorers who wants to delve deeper to further improve the model, looking at the following will return great dividends-</p>
+<ul>
+<li>Imputation - Consider interaction between different variables</li>
+<li>Feature elimination- Lots of features in the data show multi-collinearity. Keeping the relevant ones will do wonders.</li>
+<li>Hyperparameter tuning - Although Orange is limited in this regard, further examination likely to yield better outcomes</li>
+</ul>
+</div>
+    <footer class="article-footer"><ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item" data-aos="zoom-in">
+      <a
+        class="article-tag-list-link"
+        href="/tags/tutorial"
+        rel="tag"
+        >TUTORIAL</a
+      >
+    </li><li class="article-tag-list-item" data-aos="zoom-in">
+      <a
+        class="article-tag-list-link"
+        href="/tags/machine-learning"
+        rel="tag"
+        >MACHINE LEARNING</a
+      >
+    </li><li class="article-tag-list-item" data-aos="zoom-in">
+      <a
+        class="article-tag-list-link"
+        href="/tags/orange-3"
+        rel="tag"
+        >ORANGE 3</a
+      >
+    </li><li class="article-tag-list-item" data-aos="zoom-in">
+      <a
+        class="article-tag-list-link"
+        href="/tags/kaggle-house-price"
+        rel="tag"
+        >KAGGLE HOUSE PRICE</a
+      >
+    </li><li class="article-tag-list-item" data-aos="zoom-in">
+      <a
+        class="article-tag-list-link"
+        href="/tags/data-mining"
+        rel="tag"
+        >DATA MINING</a
+      >
+    </li></ul>
+</footer>
+  </div><nav
+    id="article-nav"
+    data-aos="fade-up"
+  ><div class="article-nav-link-wrap article-nav-link-left"><img
+              data-src="https://d-sketon.top/img/_backwebp/bg1.webp"
+              data-sizes="auto"
+              alt="Visualizing Bangladesh #02"
+              class="lazyload"
+            /><a href="/post/2019-02-09-viz_bd_gdp/"></a>
+        <div class="article-nav-caption">Older</div>
+        <h3 class="article-nav-title">Visualizing Bangladesh #02</h3>
+      </div><div class="article-nav-link-wrap article-nav-link-right"><img
+              data-src="https://d-sketon.top/img/_backwebp/bg1.webp"
+              data-sizes="auto"
+              alt="Resolution Wars: October 2019 Update"
+              class="lazyload"
+            /><a href="/post/2019-10-24-phone_resolution/"></a>
+        <div class="article-nav-caption">Newer</div>
+        <h3 class="article-nav-title">Resolution Wars: October 2019 Update</h3>
+      </div></nav></article></section>
+        </div><footer id="footer">
+  <div style="width: 100%; overflow: hidden">
+    <div class="footer-line"></div>
+  </div>
+  <div id="footer-info"><div>
+      <span class="icon-copyright"></span>2020-2025<span class="footer-info-sep rotate"></span>
+      Saif
+    </div><div>
+        Powered by&nbsp;<a
+          href="https://gohugo.io/"
+          target="_blank"
+          >Hugo</a
+        >&nbsp; Theme.<a
+          href="https://github.com/D-Sketon/hugo-theme-reimu"
+          target="_blank"
+          >Reimu</a
+        >
+      </div><div>
+        <span class="icon-brush"
+          >&nbsp;19.1k</span
+        >
+        &nbsp;|&nbsp;
+        <span class="icon-coffee">&nbsp;01:52</span>
+      </div><div>
+        <span class="icon-eye"></span>
+        <span id="busuanzi_container_site_pv"
+          >Number of visits&nbsp;<span
+            id="busuanzi_value_site_pv"
+          ></span
+        ></span>
+        &nbsp;|&nbsp;
+        <span class="icon-user"></span>
+        <span id="busuanzi_container_site_uv"
+          >Number of visitors&nbsp;<span
+            id="busuanzi_value_site_uv"
+          ></span
+        ></span>
+      </div></div>
+</footer>
+<div class="sidebar-top">
+            <div class="sidebar-top-taichi rotate"></div>
+            <div class="arrow-up"></div>
+          </div><div id="mask" class="hide"></div>
+      </div><nav id="mobile-nav">
+  <div class="sidebar-wrap"><div class="sidebar-toc-sidebar"><div class="sidebar-toc">
+  <h3 class="toc-title">Contents</h3>
+  <div class="sidebar-toc-wrapper toc-div-class">
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#">What is Orange</a></li>
+        <li><a href="#">Where do I get it</a></li>
+        <li><a href="#">Our objective today</a></li>
+        <li><a href="#">How it works</a></li>
+        <li><a href="#">Loading data</a></li>
+        <li><a href="#">Exploring the data</a></li>
+        <li><a href="#">Building the model</a></li>
+        <li><a href="#">Predicting the unknown</a></li>
+        <li><a href="#">Results</a></li>
+        <li><a href="#">Final thoughts</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</div></div>
+        <div class="sidebar-common-sidebar hidden"><div class="sidebar-author">
+  <img
+    data-src="/avatar/avatar.jpg"
+    data-sizes="auto"
+    alt="Saif"
+    class="lazyload"
+  />
+  <div class="sidebar-author-name">Saif</div>
+  <div class="sidebar-description"></div>
+</div>
+<div class="sidebar-state">
+  <div class="sidebar-state-article">
+    <div>Posts</div><div class="sidebar-state-number">39</div>
+  </div>
+  <div class="sidebar-state-category">
+    <div>Categories</div>
+    <div class="sidebar-state-number">
+      1
+    </div>
+  </div>
+  <div class="sidebar-state-tag">
+    <div>Tags</div>
+    <div class="sidebar-state-number">103</div>
+  </div>
+</div>
+<div class="sidebar-social"><div class="icon-email sidebar-social-icon">
+      <a
+        href="mailto:saif.kabir.asif@gmail.com"
+        itemprop="url"
+        target="_blank"
+        aria-label="email"
+        rel="noopener external nofollow noreferrer"
+      ></a>
+    </div><div class="icon-linkedin sidebar-social-icon">
+      <a
+        href="https://www.linkedin.com/in/saifkbr"
+        itemprop="url"
+        target="_blank"
+        aria-label="linkedin"
+        rel="noopener external nofollow noreferrer"
+      ></a>
+    </div></div>
+<div class="sidebar-menu"><div class="sidebar-menu-link-wrap">
+      <a
+        class="sidebar-menu-link-dummy"
+        href="/"
+        aria-label="Home"
+      ></a>
+      <div class='sidebar-menu-icon icon rotate'>&#xe62b;</div>
+      <div class="sidebar-menu-link">Home</div>
+    </div><div class="sidebar-menu-link-wrap">
+      <a
+        class="sidebar-menu-link-dummy"
+        href="/archives"
+        aria-label="Posts"
+      ></a>
+      <div class='sidebar-menu-icon icon rotate'>&#xe62b;</div>
+      <div class="sidebar-menu-link">Posts</div>
+    </div><div class="sidebar-menu-link-wrap">
+      <a
+        class="sidebar-menu-link-dummy"
+        href="/about"
+        aria-label="About"
+      ></a>
+      <div class='sidebar-menu-icon icon rotate'>&#xe62b;</div>
+      <div class="sidebar-menu-link">About</div>
+    </div><div class="sidebar-menu-link-wrap">
+      <a
+        class="sidebar-menu-link-dummy"
+        href="/learning"
+        aria-label="Learning"
+      ></a>
+      <div class='sidebar-menu-icon icon rotate'>&#xe62b;</div>
+      <div class="sidebar-menu-link">Learning</div>
+    </div></div>
+</div></div><div class="sidebar-btn-wrapper">
+        <div class="sidebar-toc-btn current"></div>
+        <div class="sidebar-common-btn"></div>
+      </div></nav>
+</div><script
+    src="https://npm.webcache.cn/lazysizes@5.3.2/lazysizes.min.js"
+    integrity="sha384-3gT/vsepWkfz/ff7PpWNUeMzeWoH3cDhm/A8jM7ouoAK0/fP/9bcHHR5kHq2nf&#43;e" crossorigin="anonymous"></script><script
+    src="https://npm.webcache.cn/clipboard@2.0.11/dist/clipboard.min.js"
+    integrity="sha384-J08i8An/QeARD9ExYpvphB8BsyOj3Gh2TSh1aLINKO3L0cMSH2dN3E22zFoXEi0Q" crossorigin="anonymous"></script><script src="/js/main.js" ></script><script src="/js/aos.js" ></script><script>
+    var aosInit = () => {
+      AOS.init({
+        duration: 1000,
+        easing: "ease",
+        once: true,
+        offset: 50,
+      });
+    };
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", aosInit);
+    } else {
+      aosInit();
+    }
+  </script><script src="/js/pjax_main.js" data-pjax></script><script
+    src="https://npm.webcache.cn/mouse-firework@0.1.1/dist/index.umd.js"
+    integrity="sha384-8LyaidD9GPxQQgLJO/WRw/O2h3BoNq/ApI/ecpvM6RsrCz2qP2ppBXUKihP4V/2d" crossorigin="anonymous"></script><script>
+  if (window.firework) {
+    const options = JSON.parse("{\"excludeelements\":[\"a\",\"button\"],\"particles\":[{\"colors\":[\"var(--red-1)\",\"var(--red-2)\",\"var(--red-3)\",\"var(--red-4)\"],\"duration\":[1200,1800],\"easing\":\"easeOutExpo\",\"move\":[\"emit\"],\"number\":20,\"shape\":\"circle\",\"shapeOptions\":{\"alpha\":[0.3,0.5],\"radius\":[16,32]}},{\"colors\":[\"var(--red-0)\"],\"duration\":[1200,1800],\"easing\":\"easeOutExpo\",\"move\":[\"diffuse\"],\"number\":1,\"shape\":\"circle\",\"shapeOptions\":{\"alpha\":[0.2,0.5],\"lineWidth\":6,\"radius\":20}}]}");
+    options.excludeElements = options.excludeelements;
+    delete options.excludeelements;
+    window.firework(options);
+  }
+</script>
+
+<div id="lazy-script">
+  <div><script data-pjax>
+        window.REIMU_POST = {
+          author: "Saif",
+          title: "Exploring Orange : A Beginner Friendly Data Mining Toolkit",
+          url: "http:\/\/localhost:1515\/post\/2019-05-25-orange3_tutorial\/",
+          description: "\rLately, machine learning has become the buzzword in business community and rightly so due to the immense opportunities it offers. But one hurdle absolute beginners face is learning a new language like R or Python. Yes! they are absolutely necessary if you want to control and tune every single …",
+          cover: "http:\/\/localhost:1515\/images\/banner.webp",
+        };
+      </script><script src="/js/insert_highlight.js" data-pjax></script><script type="module" data-pjax>const PhotoSwipeLightbox = (await safeImport("https:\/\/npm.webcache.cn\/photoswipe@5.4.4\/dist\/photoswipe-lightbox.esm.min.js", "sha384-DiL6M\/gG\u002bwmTxmCRZyD1zee6lIhawn5TGvED0FOh7fXcN9B0aZ9dexSF\/N6lrZi\/")).default;const pswp = () => {
+          if (_$$('.article-entry a.article-gallery-item').length > 0) {
+            new PhotoSwipeLightbox({
+              gallery: '.article-entry',
+              children: 'a.article-gallery-item',pswpModule: () => safeImport("https:\/\/npm.webcache.cn\/photoswipe@5.4.4\/dist\/photoswipe.esm.min.js", "sha384-WkkO3GCmgkC3VQWpaV8DqhKJqpzpF9JoByxDmnV8\u002boTJ7m3DfYEWX1fu1scuS4\u002bs")}).init();
+          }
+          if(_$$('.article-gallery a.article-gallery-item').length > 0) {
+            new PhotoSwipeLightbox({
+              gallery: '.article-gallery',
+              children: 'a.article-gallery-item',pswpModule: () => safeImport("https:\/\/npm.webcache.cn\/photoswipe@5.4.4\/dist\/photoswipe.esm.min.js", "sha384-WkkO3GCmgkC3VQWpaV8DqhKJqpzpF9JoByxDmnV8\u002boTJ7m3DfYEWX1fu1scuS4\u002bs")}).init();
+          }
+          window.lightboxStatus = 'done';
+          window.removeEventListener('lightbox:ready', pswp);
+        }
+        if(window.lightboxStatus === 'ready') {
+          pswp()
+        } else {
+          window.addEventListener('lightbox:ready', pswp);
+        }
+      </script></div>
+</div><script
+    src="https://npm.webcache.cn/busuanzi@2.3.0/bsz.pure.mini.js"
+    asyncintegrity="sha384-0M75wtSkhjIInv4coYlaJU83&#43;OypaRCIq2SukQVQX04eGTCBXJDuWAbJet56id&#43;S" crossorigin="anonymous"></script><script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistrations().then((registrations) => {
+        for (let registration of registrations) {
+          registration.unregister();
+        }
+      });
+    }
+  </script><script>
+  const reimuCopyright = String.raw`
+   ______     ______     __     __    __     __  __    
+  /\  == \   /\  ___\   /\ \   /\ "-./  \   /\ \/\ \   
+  \ \  __<   \ \  __\   \ \ \  \ \ \-./\ \  \ \ \_\ \  
+   \ \_\ \_\  \ \_____\  \ \_\  \ \_\ \ \_\  \ \_____\ 
+    \/_/ /_/   \/_____/   \/_/   \/_/  \/_/   \/_____/ 
+                                                    
+  `;
+  console.log(String.raw`%c ${reimuCopyright}`, "color: #ff5252;");
+  console.log(
+    "%c Theme.Reimu" + " %c https://github.com/D-Sketon/hugo-theme-reimu ",
+    "color: white; background: #ff5252; padding:5px 0;",
+    "padding:4px;border:1px solid #ff5252;",
+  );
+</script></body>
+</html>

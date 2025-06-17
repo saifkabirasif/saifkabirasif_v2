@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Population on My New Hugo Site</title>
+    <link>http://localhost:1515/tags/population/</link>
+    <description>Recent content from My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    
+    <managingEditor>saif.kabir.asif@gmail.com (Saif)</managingEditor>
+    <webMaster>saif.kabir.asif@gmail.com (Saif)</webMaster>
+    
+    <copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright>
+    
+    <lastBuildDate>Thu, 28 Nov 2019 10:53:00 +0600</lastBuildDate>
+    
+    
+    <atom:link href="http://localhost:1515/tags/population/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+
+    
+    
+
+    <item>
+      <title>Visualizing Bangladesh #4</title>
+      <link>http://localhost:1515/post/2019-11-28-pop_mix_bangladesh/</link>
+      <pubDate>Thu, 28 Nov 2019 10:53:00 &#43;0600</pubDate>
+      <author>saif.kabir.asif@gmail.com (Saif)</author>
+      <guid>http://localhost:1515/post/2019-11-28-pop_mix_bangladesh/</guid>
+      <description>
+        <![CDATA[<h1>Visualizing Bangladesh #4</h1><p>Author: Saif(saif.kabir.asif@gmail.com)</p>
+        
+          <style>
+
+    article img {
+    max-height: 100% !important;
+    width: 100% !important;
+
+}
+</style>
+<p>This is the fourth entry in my series of Visualizing Bangladesh. This time an animated chart of population mix over the years. Bangladesh will be primed with youth working population between 2020 to 2030. It is hammer time for economic progress.</p>
+<img src="/img/Pop_Mix-2019-11-26.gif" alt="Population Mix over the Years"><p>Data Source: World Bank (2019 November)</p>
+        
+        <hr><p>Published on 2019-11-28 at <a href='http://localhost:1515/'>My New Hugo Site</a>, last modified on 2019-11-28</p>]]>
+      </description>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Presentation on My New Hugo Site</title>
+    <link>http://localhost:1515/tags/presentation/</link>
+    <description>Recent content from My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    
+    <managingEditor>saif.kabir.asif@gmail.com (Saif)</managingEditor>
+    <webMaster>saif.kabir.asif@gmail.com (Saif)</webMaster>
+    
+    <copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright>
+    
+    <lastBuildDate>Thu, 26 Aug 2021 00:53:00 +0600</lastBuildDate>
+    
+    
+    <atom:link href="http://localhost:1515/tags/presentation/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+
+    
+    
+
+    <item>
+      <title>Analytical presentations: Looking for the right things</title>
+      <link>http://localhost:1515/post/2021-08-26-what_to_ask_analytics/</link>
+      <pubDate>Thu, 26 Aug 2021 00:53:00 &#43;0600</pubDate>
+      <author>saif.kabir.asif@gmail.com (Saif)</author>
+      <guid>http://localhost:1515/post/2021-08-26-what_to_ask_analytics/</guid>
+      <description>
+        <![CDATA[<h1>Analytical presentations: Looking for the right things</h1><p>Author: Saif(saif.kabir.asif@gmail.com)</p>
+        
+          <p>Last few years, analytics and its companion words (Big Data, Machine Learning etc.) have become victims of overuse and abuse. At every meeting you get a few people utter this words for any or everything. Yes, they have become huge but very few companies possess the amount of data or processing capabilities or talents or all of the above to truly realize the potential. On top of it, misrepresentation (or should I say &lsquo;presentation&rsquo;) of data has become rampant. From my moderate experience with dealing with analytical reports (both receiving and sending ends), here I&rsquo;m trying to list down some tips to help the uninitiated to navigate through smoke and mirror</p>
+        
+        <hr><p>Published on 2021-08-26 at <a href='http://localhost:1515/'>My New Hugo Site</a>, last modified on 2021-08-26</p>]]>
+      </description>
+      
+    </item>
+    
+  </channel>
+</rss>

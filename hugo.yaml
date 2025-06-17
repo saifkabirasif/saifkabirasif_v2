@@ -1,0 +1,27 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: My New Hugo Site
+theme: reimu
+markup:
+  highlight:
+    guessSyntax: true
+    noClasses: false
+    tabWidth: 2
+  goldmark:
+    extensions:
+      linkify: false
+    parser:
+      autoHeadingID: false
+      attribute:
+        block: true
+        title: true
+      wrapStandAloneImageWithinParagraph: false
+    renderer:
+      unsafe: true
+
+module:
+  mounts:
+    - source: assets
+      target: assets
+    - source: static
+      target: assets

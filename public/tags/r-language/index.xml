@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R Language on My New Hugo Site</title>
+    <link>http://localhost:1515/tags/r-language/</link>
+    <description>Recent content from My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    
+    <managingEditor>saif.kabir.asif@gmail.com (Saif)</managingEditor>
+    <webMaster>saif.kabir.asif@gmail.com (Saif)</webMaster>
+    
+    <copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright>
+    
+    <lastBuildDate>Mon, 25 May 2020 08:53:00 +0600</lastBuildDate>
+    
+    
+    <atom:link href="http://localhost:1515/tags/r-language/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+
+    
+    
+
+    <item>
+      <title>Tutorial: Creating 100% Stack bar chart with Highcharts</title>
+      <link>http://localhost:1515/post/2020-05-25-highcharts_stack_100/</link>
+      <pubDate>Mon, 25 May 2020 08:53:00 &#43;0600</pubDate>
+      <author>saif.kabir.asif@gmail.com (Saif)</author>
+      <guid>http://localhost:1515/post/2020-05-25-highcharts_stack_100/</guid>
+      <description>
+        <![CDATA[<h1>Tutorial: Creating 100% Stack bar chart with Highcharts</h1><p>Author: Saif(saif.kabir.asif@gmail.com)</p>
+        
+          <style>
+    article img {
+        max-height: 100% !important;
+        width: 100% !important;
+}
+
+
+iframe{
+	width: 100%;
+	height: 500px;
+}
+```
+
+</style>
+<p>This is a tutorial on how to create 100% stack bar chart leveraging the power of Highcharts JS library in R.
+The code will go line by line in the following slides if you touch/click/scroll/press left or right arrow.</p>
+<p>For full screen go here - <a href="https://saifkabirasif.com/Flipbooks/Highcharts_Stack_100/Highcharts_Stack_100.html">View full screen</a></p>
+<iframe src="https://saifkabirasif.com/Flipbooks/Highcharts_Stack_100/Highcharts_Stack_100.html"></iframe>
+<p>Do share it if you liked it. For any suggestion, give me a knock on twitter.</p>
+        
+        <hr><p>Published on 2020-05-25 at <a href='http://localhost:1515/'>My New Hugo Site</a>, last modified on 2020-05-25</p>]]>
+      </description>
+      
+    </item>
+    
+  </channel>
+</rss>
