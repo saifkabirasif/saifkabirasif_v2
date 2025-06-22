@@ -19,6 +19,9 @@ markup:
     renderer:
       unsafe: true
 
+enableRobotsTXT: true
+
+
 module:
   mounts:
     - source: assets

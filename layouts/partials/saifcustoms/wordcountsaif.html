@@ -1,0 +1,6 @@
+{{ $wordCount := 0 }}
+{{ $postCount := len (where .Page.Site.RegularPages "Section" "in" .Site.Params.mainSections) }}
+{{ range (where .Site.RegularPages "Section" "in" .Site.Params.mainSections) }}
+  {{ $wordCount = add $wordCount .WordCount }}
+{{ end }}
+{{ return  printf "%.1f K" (div $wordCount 1000.0) }}

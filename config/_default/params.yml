@@ -15,22 +15,26 @@ tagCloud:
   fontSizeMax: 24.0
   fontSizeMin: 6.0
 
+# Sidebar
+sidebar_custom:
+  subtitle: "An Engineer by Profession!<br>Data Enthusiast by Passion!"
 
 # main menu navigation
 # for more icon information, please visit https://github.com/D-Sketon/hexo-theme-reimu/issues/30
 menu:
   - name: home
     url: ""
-    icon: # default use taichi icon, you can use a hexadecimal representation of fontawesome or icon_font, like 'f0c1'
+    icon: f015 # default use taichi icon, you can use a hexadecimal representation of fontawesome or icon_font, like 'f0c1'
   - name: archives
     url: "archives"
-    icon:
-  - name: about
-    url: "about"
-    icon:
+    icon: f31c
   - name: learning
     url: "learning"
-    icon:
+    icon: f19d
+  - name: about
+    url: "about"
+    icon: f2bb
+
 
 mainSections: ["post"]
 # 年，月，日及时间的格式化样式
@@ -42,8 +46,9 @@ timeFormat: "2006-01-02 15:04:05"
 
 author: Saif
 email: saif.kabir.asif@gmail.com
-description: ""
+description: "An Engineer by Profession! Data Enthusiast by Passion!"
 subtitle: "An Engineer by Profession! Data Enthusiast by Passion!"
+keywords: "Data Science, Analytics, Artificial Intelligence, AI, Bangladesh, Saif, Kabir, Asif, Saif Kabir, Games, Tech, Telecom"
 
 banner: "images/banner.webp"
 # You can also write it in the form of the following url
@@ -51,7 +56,7 @@ banner: "images/banner.webp"
 
 # If you want to use the srcset attribute, please enable it
 banner_srcset:
-  enable: false
+  enable: true
   srcset:
     - src: "images/banner-600w.webp"
       media: "(max-width: 479px)"
@@ -60,7 +65,7 @@ banner_srcset:
     - src: "images/banner.webp"
       media: "(min-width: 800px)"
 
-avatar: "avatar.jpg"
+avatar: "avatar.webp"
 
 # Control the display of the post cover
 # If not set, the banner image will be displayed by default
@@ -114,7 +119,7 @@ footer:
   count: true
   busuanzi: true
   icon:
-    url: "../images/taichi.png" # this path is relative to the css/main.css, so it needs to go up one level to reach the images folder
+    url: "../images/taichi.webp" # this path is relative to the css/main.css, so it needs to go up one level to reach the images folder
     rotate: true
     mask: true # whether to use the images as a mask
 
@@ -165,7 +170,7 @@ only_show_capsule_in_index: true # If you have hugo amounts of tags and categori
 
 # RSS output
 rss:
-  limit: -1             # The number of recent articles to be output, write -1 to output all
+  limit: 15            # The number of recent articles to be output, write -1 to output all
   showFullContent: false # output full content or description
   showCopyright: false   # If true, add copyright to the end of article.
 
@@ -176,13 +181,13 @@ rss:
 anchor_icon: false # default use '#' icon, you can use a hexadecimal representation of fontawesome or icon_font, like 'f0c1', you can also use false to hide anchor icon
 
 reimu_cursor:
-  enable: true
+  enable: false
   cursor:
-    default: ../images/cursor/reimu-cursor-default.png  # this path is relative to the css/main.css, so it needs to go up one level to reach the images folder
-    pointer: ../images/cursor/reimu-cursor-pointer.png
-    text: ../images/cursor/reimu-cursor-text.png
+    default: ../images/cursor/reimu-cursor-default.webp  # this path is relative to the css/main.css, so it needs to go up one level to reach the images folder
+    pointer: ../images/cursor/reimu-cursor-pointer.webp
+    text: ../images/cursor/reimu-cursor-text.webp
 
-icon_font: 4552607_0khxww3tj3q9
+icon_font: false
 
 # Font loading strategy
 # Custom Font -> Google Fonts -> Local FallBack Font
@@ -523,10 +528,10 @@ sponsor:
 
 # Share
 share:
-  # - facebook
-  # - twitter
-  # - linkedin
-  # - reddit
+  - facebook
+  - twitter
+  - linkedin
+  - reddit
   # - weibo
   # - qq
   # - weixin
@@ -535,9 +540,9 @@ share:
 home_categories:
   enable: false
   content:
-    - categories: # string (single-layer category) or array (multi-layer category)
+    - categories: Test # string (single-layer category) or array (multi-layer category)
       cover: # empty means random cover
-    - categories:
+    - categories: B
       cover:
 
 ########################################

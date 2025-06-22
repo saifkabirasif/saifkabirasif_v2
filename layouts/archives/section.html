@@ -11,6 +11,7 @@
     {{- else -}}
       {{- partialCached "archives.html" . -}}
     {{- end -}}
+    <!-- <div class="sidebar-state">{{ partial "saifcustoms/wordcountsaif.html" . }}</div> -->
     {{- partial "list.html" (dict "paginator" $paginator "ctx" .) -}}
   </div>
   {{- partial "pagination.html" . -}}

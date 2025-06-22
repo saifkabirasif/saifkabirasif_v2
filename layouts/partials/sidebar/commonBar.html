@@ -7,7 +7,7 @@
     class="lazyload"
   />
   <div class="sidebar-author-name">{{ .Site.Params.author }}</div>
-  <div class="sidebar-description">{{ .Site.Params.description }}</div>
+  <div class="sidebar-description">{{ .Site.Params.sidebar_custom.subtitle | safeHTML }}</div>
 </div>
 <div class="sidebar-state">
   <div class="sidebar-state-article">
@@ -21,9 +21,13 @@
       {{ len .Site.Taxonomies.categories }}
     </div>
   </div>
-  <div class="sidebar-state-tag">
+  <!-- <div class="sidebar-state-tag">
     <div>{{ i18n "sidebar.tag" }}</div>
     <div class="sidebar-state-number">{{ len .Site.Taxonomies.tags }}</div>
+  </div> -->
+    <div class="sidebar-state-tag">
+    <div>{{ i18n "sidebar.word" }}</div>
+    <div class="sidebar-state-number">{{ partial "saifcustoms/wordcountsaif.html" . }}</div>
   </div>
 </div>
 <div class="sidebar-social">

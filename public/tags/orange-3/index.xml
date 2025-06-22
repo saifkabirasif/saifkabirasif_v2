@@ -1,30 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Orange 3 on Saif</title><link>https://example.org/tags/orange-3/</link><description>Recent content from Saif</description><generator>Hugo</generator><language>en-us</language><managingEditor>saif.kabir.asif@gmail.com (Saif)</managingEditor><webMaster>saif.kabir.asif@gmail.com (Saif)</webMaster><copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright><lastBuildDate>Sat, 25 May 2019 08:53:00 +0600</lastBuildDate><atom:link href="https://example.org/tags/orange-3/index.xml" rel="self" type="application/rss+xml"/><item><title>Exploring Orange : A Beginner Friendly Data Mining Toolkit</title><link>https://example.org/post/2019-05-25-orange3_tutorial/</link><pubDate>Sat, 25 May 2019 08:53:00 +0600</pubDate><author>saif.kabir.asif@gmail.com (Saif)</author><guid>https://example.org/post/2019-05-25-orange3_tutorial/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Orange 3 on Saif</title><link>https://example.org/tags/orange-3/</link><description>Recent content from Saif</description><language>en-us</language><managingEditor>saif.kabir.asif@gmail.com (Saif)</managingEditor><webMaster>saif.kabir.asif@gmail.com (Saif)</webMaster><copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright><lastBuildDate>Sat, 25 May 2019 08:53:00 +0600</lastBuildDate><atom:link href="https://example.org/tags/orange-3/index.xml" rel="self" type="application/rss+xml"/><item><title>Exploring Orange : A Beginner Friendly Data Mining Toolkit</title><link>https://example.org/post/2019-05-25-orange3_tutorial/</link><pubDate>Sat, 25 May 2019 08:53:00 +0600</pubDate><author>saif.kabir.asif@gmail.com (Saif)</author><guid>https://example.org/post/2019-05-25-orange3_tutorial/</guid><description>
 <![CDATA[<h1>Exploring Orange : A Beginner Friendly Data Mining Toolkit</h1><p>Author: Saif(saif.kabir.asif@gmail.com)</p>
         
-          <style>
-    article img {
-        max-height: 100% !important;
-
-```css
-}
-
-h3 {
-    color: #41b0a4 !important;
-    font-weight: bolder !important;
-    }
-
-a {
-    color: rgb(65, 175, 164);
-    border-bottom: 1px solid #e4e6ca
-
-  }
-
-.navbar{
-    background-image: linear-gradient(#4ca2d4, #4c9dd4 60%, #0a3d7a);
-  }
-```
-
-</style>
-<p>Lately, machine learning has become the buzzword in business community and rightly so due to the immense opportunities it offers. But one hurdle absolute beginners face is learning a new language like R or Python. Yes! they are absolutely necessary if you want to control and tune every single aspect of your workflow, But for beginners,  quickly getting to something tangible is more important to keep up the enthusiasm of learning. Today I will go through one such tool- Orange - which is perfect for teaching machine learning to beginners without getting into nitty-gritty of programming.</p>
+          Lately, machine learning …
         
         <hr><p>Published on 2019-05-25 at <a href='https://example.org/'>Saif</a>, last modified on 2019-05-25</p>]]></description></item></channel></rss>

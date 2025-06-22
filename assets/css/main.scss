@@ -279,11 +279,29 @@ table.badge_table a:hover {
     text-align: center;
     font-size: clamp(20px,4vw,28px);
     background: beige;
+    display: flex;
+
+}
+
+.badge_subheader {
+    display: flex;
+
+}
+
+.badge_header strong {
+    align-content: center;
+
+}
+
+.badge_subheader strong {
+    align-content: center;
+
 }
 
 .badge_header img {
     height: clamp(100px,40vw,120px);
 }
+
 
 .badge_subheader img {
     height: clamp(100px,40vw,120px);

@@ -1,7 +1,7 @@
 ---
 title: My Learning Logs
 description: Knowledge is the ultimate treasure! <br> Recognitions are byproducts!!
-
+subtitle: Knowledge is the ultimate treasure! <br> Recognitions are byproducts!!
 date: 2025-06-16T12:12:52+06:00
 lastmod: 2025-06-16T12:12:52+06:00
 ---
@@ -26,32 +26,32 @@ This is my non-exhaustive learning log with verifiable links  - not only to show
 
 
 
-### <img src="/images/badges/header_medal.png" style="height:100px;" /> **Professional Certifications**{.badge_header .no_toc}
+### <img src="/images/badges/header_medal.webp" style="height:100px;" /> **Professional Certifications**{.badge_header .no_toc}
 
 
 |||||
 |:---:|:---:|:---:|:---:|
-|[![](/images/badges/badge_data_engineer_associate.png)<br>Data Engineer Associate](https://www.datacamp.com/certificate/DEA0010535469218 "Certified Data Engineering Associate &#013;From: DataCamp &#013;Year: 2023")|[![](/images/badges/badge_Tableau_analyst.png)<br>Tableau Analyst](https://www.youracclaim.com/badges/4c5a3dee-afc4-43a2-8723-b3edd0b13aac/linked_i "Tableau Analyst &#013;From: Tableau Software &#013;Year: 2020")|[![](/images/badges/badge_HackerRank_SQL_Advanced.png)<br>HackerRank SQL Advanced](https://www.hackerrank.com/certificates/1c408f1f12c6 "SQL (Advanced) &#013;From: HackerRank &#013;Year: 2022")|[![](/images/badges/badge_CSM.png)<br>Certified ScrumMaster](http://bcert.me/sayxqywwt "Certified ScrumMaster (CSM) &#013;From: Scrum Alliance &#013;Year: 2021")|
+|[![](/images/badges/badge_data_engineer_associate.webp)<br>Data Engineer Associate](https://www.datacamp.com/certificate/DEA0010535469218 "Certified Data Engineering Associate &#013;From: DataCamp &#013;Year: 2023")|[![](/images/badges/badge_Tableau_analyst.webp)<br>Tableau Analyst](https://www.youracclaim.com/badges/4c5a3dee-afc4-43a2-8723-b3edd0b13aac/linked_i "Tableau Analyst &#013;From: Tableau Software &#013;Year: 2020")|[![](/images/badges/badge_HackerRank_SQL_Advanced.webp)<br>HackerRank SQL Advanced](https://www.hackerrank.com/certificates/1c408f1f12c6 "SQL (Advanced) &#013;From: HackerRank &#013;Year: 2022")|[![](/images/badges/badge_CSM.webp)<br>Certified ScrumMaster](http://bcert.me/sayxqywwt "Certified ScrumMaster (CSM) &#013;From: Scrum Alliance &#013;Year: 2021")|
 {.badge_table}
 
 
 <!-- {:.no_toc}
-### <img src="/images/lineImages/win.png" style="zoom:26%;" /> **Professional Certifications**
+### <img src="/images/lineImages/win.webp" style="zoom:26%;" /> **Professional Certifications**
 
-* <img src="/images/lineImages/data_engineer_associate_badge.png" style="zoom:32%;" /> [**Data Engineer Associate**](https://www.datacamp.com/certificate/DEA0010535469218) - DataCamp
-* <img src="/images/lineImages/Tableau.png" style="zoom:45%;" /> [**Tableau Analyst**](https://www.youracclaim.com/badges/4c5a3dee-afc4-43a2-8723-b3edd0b13aac/linked_i) - Tableau Software
-* <img src="/images/lineImages/sql.png" style="zoom:12%;" /> [**SQL (Advanced)**](https://www.hackerrank.com/certificates/1c408f1f12c6) - HackerRank
-* <img src="/images/lineImages/Scrum.jpg" style="zoom:10%;" /> [**Certified ScrumMaster (CSM)**](http://bcert.me/sayxqywwt) - Scrum Alliance -->
+* <img src="/images/lineImages/data_engineer_associate_badge.webp" style="zoom:32%;" /> [**Data Engineer Associate**](https://www.datacamp.com/certificate/DEA0010535469218) - DataCamp
+* <img src="/images/lineImages/Tableau.webp" style="zoom:45%;" /> [**Tableau Analyst**](https://www.youracclaim.com/badges/4c5a3dee-afc4-43a2-8723-b3edd0b13aac/linked_i) - Tableau Software
+* <img src="/images/lineImages/sql.webp" style="zoom:12%;" /> [**SQL (Advanced)**](https://www.hackerrank.com/certificates/1c408f1f12c6) - HackerRank
+* <img src="/images/lineImages/Scrum.webp" style="zoom:10%;" /> [**Certified ScrumMaster (CSM)**](http://bcert.me/sayxqywwt) - Scrum Alliance -->
 
 
-### <img src="/images/badges/header_certificate.png" style="height:100px;" /> **Competitive achievements**{.badge_header .no_toc}
+### <img src="/images/badges/header_certificate.webp" style="height:100px;" /> **Competitive achievements**{.badge_header .no_toc}
 
 * [Special recognition for outstanding performance](https://www.linkedin.com/in/saifkbr/detail/treasury/position:1397985585/?entityUrn=urn%3Ali%3Afsd_profileTreasuryMedia%3A(ACoAAAnkSecBiPVfrsQTC7TE5pEQtWgOh-c7DU8%2C1567054661390)&section=position%3A1397985585&treasuryCount=4) in first public **Datathon Bangladesh** in 2019 organized by Axiata Analytics Centre in collaboration with Robi Axiata Limited
 
 * Top 10 in ADL AI Summit  [PreHackathon Kaggle Competition](https://www.kaggle.com/c/adl-ai-summit-2021-prehackathon/leaderboard) public and private leaderboard with Team Chunoputi
 
 
-### <img src="/images/badges/header_specialization.png" style="height:100px;" /> **Multi-course Specialization**{.badge_header .no_toc}
+### <img src="/images/badges/header_specialization.webp" style="height:100px;" /> **Multi-course Specialization**{.badge_header .no_toc}
 
 * [Applied Data Science with Python](https://www.coursera.org/account/accomplishments/specialization/certificate/CDT3LC7DV57R)  - University of Michigan - Coursera - 5 Courses - 20 Weeks
 
@@ -67,7 +67,7 @@ This is my non-exhaustive learning log with verifiable links  - not only to show
 
 
 
-### <img src="/images/badges/header_profile.png" style="height:100px;" /> **Learner Profile**{.badge_header .no_toc}
+### <img src="/images/badges/header_profile.webp" style="height:100px;" /> **Learner Profile**{.badge_header .no_toc}
 
 * [Continuous learning and practice](https://www.datacamp.com/profile/mobijoker) - DataCamp Profile
 
@@ -75,11 +75,11 @@ This is my non-exhaustive learning log with verifiable links  - not only to show
 
 
 
-### <img src="/images/badges/header_translate.png" style="height:100px;" /> **Translation Works** {.badge_header .no_toc}
+### <img src="/images/badges/header_translate.webp" style="height:100px;" /> **Translation Works** {.badge_header .no_toc}
 
 * Bengali translation of Data Import with R packages like readr,readxl and googlesheets4 published on official [RStudio cheatsheets](https://www.rstudio.com/resources/cheatsheets/) page (Scroll to bottom for translations list- my beloved bangla is there)
 
-### <img src="/images/badges/header_assessment.png" style="height:100px;" /> **Self-Assessments** {.badge_header .no_toc}
+### <img src="/images/badges/header_assessment.webp" style="height:100px;" /> **Self-Assessments** {.badge_header .no_toc}
 
 * Few assessments I took for benchmarking thyself in DataCamp (No shareable link - only for planning own learning route) - Scores are in percentile - Higher is better
 
@@ -93,7 +93,7 @@ This is my non-exhaustive learning log with verifiable links  - not only to show
 	* Data Management Theory - 82% (Jul'23)
 
 
-### <img src="/images/badges/header_misc.png" style="height:100px;" /> **Miscellaneous Courses** {.badge_header .no_toc}
+### <img src="/images/badges/header_misc.webp" style="height:100px;" /> **Miscellaneous Courses** {.badge_header .no_toc}
 
 
 ### <img src="/images/lineImages/R.svg" style="height:50px;" />  {.badge_subheader .no_toc}
@@ -129,7 +129,7 @@ This is my non-exhaustive learning log with verifiable links  - not only to show
 * [Network Analysis in R](https://www.datacamp.com/statement-of-accomplishment/course/75e6bc2d83cb457820500872b094dafaff141a2e) - Datacamp
 
 
-### <img src="/images/lineImages/python.png" style="height:50px;" /> **Python** {.badge_subheader .no_toc}
+### <img src="/images/lineImages/python.webp" style="height:50px;" /> **Python** {.badge_subheader .no_toc}
 
 #### Basics
 
@@ -149,7 +149,7 @@ This is my non-exhaustive learning log with verifiable links  - not only to show
 
 * [Applied Social Network Analysis in Python](https://www.coursera.org/account/accomplishments/records/938BHJVFXYGT) - University of Michigan - Coursera
 
-### <img src="/images/lineImages/Big_Data.png" style="height:50px;" />  **Big Data** {.badge_subheader .no_toc}
+### <img src="/images/lineImages/Big_Data.webp" style="height:50px;" />  **Big Data** {.badge_subheader .no_toc}
 
 * [Data Science Hands-On with Open Source Tools](https://courses.cognitiveclass.ai/certificates/d26fa0e13bdf4edca6a1cdc5e6e4f7a8) - Cognitive Class -  An IBM initiative
 * [Hadoop 101](https://courses.cognitiveclass.ai/certificates/c7c59de14c93462f9312852e655d6fed) - Cognitive Class -  An IBM initiative

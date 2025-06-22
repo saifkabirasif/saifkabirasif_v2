@@ -1,75 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mobile on Saif</title><link>https://example.org/tags/mobile/</link><description>Recent content from Saif</description><generator>Hugo</generator><language>en-us</language><managingEditor>saif.kabir.asif@gmail.com (Saif)</managingEditor><webMaster>saif.kabir.asif@gmail.com (Saif)</webMaster><copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright><lastBuildDate>Thu, 02 Jan 2020 10:53:00 +0600</lastBuildDate><atom:link href="https://example.org/tags/mobile/index.xml" rel="self" type="application/rss+xml"/><item><title>Mobile subscription by technologies</title><link>https://example.org/post/2020-01-03-mobile_subscription_evolution/</link><pubDate>Thu, 02 Jan 2020 10:53:00 +0600</pubDate><author>saif.kabir.asif@gmail.com (Saif)</author><guid>https://example.org/post/2020-01-03-mobile_subscription_evolution/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mobile on Saif</title><link>https://example.org/tags/mobile/</link><description>Recent content from Saif</description><language>en-us</language><managingEditor>saif.kabir.asif@gmail.com (Saif)</managingEditor><webMaster>saif.kabir.asif@gmail.com (Saif)</webMaster><copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright><lastBuildDate>Thu, 02 Jan 2020 10:53:00 +0600</lastBuildDate><atom:link href="https://example.org/tags/mobile/index.xml" rel="self" type="application/rss+xml"/><item><title>Mobile subscription by technologies</title><link>https://example.org/post/2020-01-03-mobile_subscription_evolution/</link><pubDate>Thu, 02 Jan 2020 10:53:00 +0600</pubDate><author>saif.kabir.asif@gmail.com (Saif)</author><guid>https://example.org/post/2020-01-03-mobile_subscription_evolution/</guid><description>
 <![CDATA[<h1>Mobile subscription by technologies</h1><p>Author: Saif(saif.kabir.asif@gmail.com)</p>
         
-          <style>
-
-    article img {
-    max-height: 100% !important;
-    width: 100% !important;
-
-}
-</style>
-<p>This is the first visualization of year 2020 where I intend to be more active in my blog. The visualization is about mobile subscription trend over the years. Although 4G/LTE is yet to peak, we expect to see huge adoption of 5G within 2-3 years as forecasted by Ericsson.</p>
-<p>The major advantages of 5G over 4G will be-</p>
-<ul>
-<li>Better speed (Obvious! Else how are we gonna stream those 4K/8K VR videos )</li>
-<li>Lower latency (The solution for a better Google Stadia and maybe lesser cables)</li>
-<li>Lots of devices under same area (Home is truly gonna be sci-fi. Imagine hundreds of sensors to help (and track) you all day long)</li>
-</ul>
-<p>Tools used:</p>
+          This is the first …
         
         <hr><p>Published on 2020-01-02 at <a href='https://example.org/'>Saif</a>, last modified on 2020-01-02</p>]]></description></item><item><title>Wireless mobile technology launch over the years</title><link>https://example.org/post/2019-12-15-mobile_tech_adoption/</link><pubDate>Sun, 15 Dec 2019 10:53:00 +0600</pubDate><author>saif.kabir.asif@gmail.com (Saif)</author><guid>https://example.org/post/2019-12-15-mobile_tech_adoption/</guid><description>
 <![CDATA[<h1>Wireless mobile technology launch over the years</h1><p>Author: Saif(saif.kabir.asif@gmail.com)</p>
         
-          <style>
-
-    article img {
-    max-height: 100% !important;
-    width: 100% !important;
-
-}
-</style>
-<p>As the World slowly ventures into 5G era, I think this is a good time to trace the trail of wireless cellular technology adoption by countries over the years. Hence, this visualization charting the adoption of 3G,4G and 5G.</p>
-<p>Few Notes:</p>
-<ul>
-<li>As some of my peers was misinterpreting the visualization due to exclusion of CDMA stream in 3G, I decided to re-do the visualization including CDMA stream.</li>
-<li>Bangladesh 4G adoption is shown as 2015 as Ollo claimed to launch LTE that year in some sites. But mass adoption occurred in 2018 February when Grameenphone, Robi Axiata and Banglalink launched LTE.</li>
-<li>Field trials or proof of concepts are excluded. Only commercial launch announcements (even with very minuscule coverage) is included</li>
-</ul>
-<img src="/img/Launch_2.gif" alt="Wireless mobile technology adoption">
+          As the World slowly …
         
         <hr><p>Published on 2019-12-15 at <a href='https://example.org/'>Saif</a>, last modified on 2019-12-15</p>]]></description></item><item><title>Wireless mobile technology adoption over the years</title><link>https://example.org/post/2019-12-13-mobile_generation_adoption/</link><pubDate>Thu, 12 Dec 2019 10:53:00 +0600</pubDate><author>saif.kabir.asif@gmail.com (Saif)</author><guid>https://example.org/post/2019-12-13-mobile_generation_adoption/</guid><description>
 <![CDATA[<h1>Wireless mobile technology adoption over the years</h1><p>Author: Saif(saif.kabir.asif@gmail.com)</p>
         
-          <style>
-
-    article img {
-    max-height: 100% !important;
-    width: 100% !important;
-
-}
-</style>
-<p>As the World slowly ventures into 5G era, I think this is a good time to trace the trail of wireless cellular technology adoption by countries over the years. Hence, this visualization charting the adoption of 3G,4G and 5G.</p>
-<p>Few Notes:</p>
-<ul>
-<li>By 3G, I picked only 3GPP standard of WCDMA. So, you may see China missing 3G up till 2009 as they were using TD-SCDMA, CDMA2000 etc. until China Unicorn launched WCDMA</li>
-<li>Bangladesh 4G adoption is shown as 2015 as Ollo claimed to launch LTE that year in some sites. But mass adoption occurred in 2018 February when Grameenphone, Robi Axiata and Banglalink launched LTE.</li>
-<li>Field trials or proof of concepts are excluded.</li>
-</ul>
-<img src="/img/Launch.gif" alt="Wireless mobile technology adoption">
+          As the World slowly …
         
         <hr><p>Published on 2019-12-12 at <a href='https://example.org/'>Saif</a>, last modified on 2019-12-12</p>]]></description></item><item><title>Visualizing Bangladesh #3</title><link>https://example.org/post/2019-11-15-telecom_subs_bangladesh/</link><pubDate>Fri, 15 Nov 2019 10:53:00 +0600</pubDate><author>saif.kabir.asif@gmail.com (Saif)</author><guid>https://example.org/post/2019-11-15-telecom_subs_bangladesh/</guid><description>
 <![CDATA[<h1>Visualizing Bangladesh #3</h1><p>Author: Saif(saif.kabir.asif@gmail.com)</p>
         
-          <style>
-
-    article img {
-    max-height: 100% !important;
-    width: 100% !important;
-
-}
-</style>
-<p>This is the third entry in my series of Visualizing Bangladesh. This time an animated chart of mobile telecom subscriber trend with key events from 2001 onwards.</p>
-<img src="/img/Telco_Subs-2019-11-08.gif" alt="Mobile Telecom Subscriber Trend"><p>Mobile telephony in Bangladesh actually started in 1989 but due to subscriber data unavailability, I have to start from 2001. If any kind soul has the data of yester years and willing to share,  do give me a knock.</p>
+          This is the third entry …
         
         <hr><p>Published on 2019-11-15 at <a href='https://example.org/'>Saif</a>, last modified on 2019-11-15</p>]]></description></item></channel></rss>

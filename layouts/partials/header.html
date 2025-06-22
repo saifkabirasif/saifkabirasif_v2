@@ -194,7 +194,7 @@
         {{- end -}}
         <h2 id="subtitle-wrap" data-aos="{{ .Site.Params.animation.options.header.subTitle }}">
           {{- if $subtitle -}}
-            <a href="{{ "" | relLangURL }}" id="subtitle">{{ $subtitle }}</a>
+            <a href="{{ "" | relLangURL }}" id="subtitle">{{ $subtitle | safeHTML }}</a>
           {{- end -}}
         </h2>
       {{- end -}}
