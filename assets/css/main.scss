@@ -225,6 +225,10 @@ a, .main-nav-icon, .popup-btn-close, button {
   max-width: 100%;
   box-sizing: border-box;
 
+  @media #{$mq-mobile} {
+    padding: 0 5px;
+  }
+
   @media #{$mg-large} {
     min-width: 100%;
   }
