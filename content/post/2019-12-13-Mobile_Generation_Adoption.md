@@ -6,8 +6,11 @@ image: "/img/Launch.gif"
 bigimg: "/img/Launch.gif"
 share-img: "/img/Launch.gif"
 date: 2019-12-12 10:53:00 +0600
+cover: /images/post_images/Launch.webp
 author: Saif
-category: tech
+categories: 
+  - tech
+  - mobile
 tags:
   - tech
   - Wireless

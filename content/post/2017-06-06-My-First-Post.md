@@ -5,6 +5,7 @@ subtitle: ""
 date: 2017-06-06T14:01:00+0600
 image: /img/Hello.png
 bigimg: /img/Hello_large.jpg
+cover: /images/post_images/Hello_large.webp
 show-share: true
 description: "Hello World"
 author: Saif

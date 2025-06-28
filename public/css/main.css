@@ -35,6 +35,11 @@
   --color-sidebar-link-active-hover: #06905b38;
   --color-sidebar-background: #06905b;
   --color-sidebar-counters: #06905b;
+  --color-body-background: #ba1919;
+  --color-tag-text: mediumseagreen;
+  --color-category-tag: mediumseagreen;
+  --color-header-nav-icon: mediumseagreen;
+  --color-header-nav-text: #c30c3e;
   --color-h2-border: #eee;
   --color-meta-shadow: var(--red-6);
   --color-hover-shadow: rgba(120, 120, 120, 0.15);
@@ -749,7 +754,7 @@ table.badge_table a:hover {
 }
 
 .nav-icon {
-  color: var(--red-0);
+  color: var(--color-header-nav-icon);
   opacity: 0.8;
   text-decoration: none;
   transition: 0.2s;
@@ -773,7 +778,7 @@ table.badge_table a:hover {
 }
 
 .main-nav-link-wrap {
-  color: var(--red-0);
+  color: var(--color-header-nav-icon);
   opacity: 0.8;
   text-decoration: none;
   transition: 0.2s;
@@ -818,18 +823,19 @@ table.badge_table a:hover {
 }
 
 .main-nav-link {
-  color: var(--red-0);
+  color: var(--color-header-nav-icon);
   opacity: 0.8;
   text-decoration: none;
   transition: 0.2s;
   padding: 20px 15px;
+  color: var(--color-header-nav-text);
   letter-spacing: 1px;
   font-weight: 700;
   opacity: 0.7;
 }
 
 .main-nav-icon {
-  color: var(--red-0);
+  color: var(--color-header-nav-icon);
   opacity: 0.8;
   text-decoration: none;
   transition: 0.2s;
@@ -1334,8 +1340,8 @@ table.badge_table a:hover {
 @media screen and (min-width: 768px) {
   .post-cover-left {
     border-radius: 10px 0 0 10px;
-    -webkit-clip-path: polygon(0 0, 92% 0%, 100% 100%, 0% 100%);
-    clip-path: polygon(0 0, 92% 0%, 100% 100%, 0% 100%);
+    -webkit-clip-path: polygon(0 0, 100% 10%, 80% 80%, 10% 100%);
+    clip-path: polygon(0 0, 100% 10%, 80% 80%, 10% 100%);
   }
 }
 
@@ -1382,8 +1388,8 @@ table.badge_table a:hover {
 @media screen and (min-width: 768px) {
   .post-cover-right {
     border-radius: 0 10px 10px 0;
-    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 8% 100%);
-    clip-path: polygon(0 0, 100% 0%, 100% 100%, 8% 100%);
+    -webkit-clip-path: polygon(20% 10%, 100% 0%, 90% 100%, 0% 80%);
+    clip-path: polygon(20% 10%, 100% 0%, 90% 100%, 0% 80%);
   }
 }
 
@@ -3992,7 +3998,19 @@ mjx-container::-webkit-scrollbar {
 .tagcloud .tagcloud-count {
   font-size: 8px;
   margin: 0px;
-  color: mediumseagreen;
+  color: var(--color-tag-text);
+}
+
+.tag-item .tagcloud-count {
+  font-size: 8px;
+  margin: 0px;
+  color: var(--color-tag-text);
+}
+
+.category-list .tagcloud-count {
+  font-size: 8px;
+  margin: 0px;
+  color: var(--color-tag-text);
 }
 
 [data-theme="dark"] .widget-wrap {

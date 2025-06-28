@@ -6,13 +6,14 @@ image: "/img/Telco_Subs-2019-11-08.gif"
 bigimg: "/img/Telco_Subs-2019-11-08.gif"
 share-img: "/img/Telco_Subs-2019-11-08.gif"
 date: 2019-11-15 10:53:00 +0600
+cover: /images/post_images/Telco_Subs-2019-11-08.webp
 author: Saif
-category: tech
+categories: 
+  - mobile
+  - Bangladesh
 tags:
-  - tech
   - Bangladesh
   - Mobile
-  - Subscriber
   - Telecommunication
   - Grameenphone
   - Banglalink

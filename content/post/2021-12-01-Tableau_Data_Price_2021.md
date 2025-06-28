@@ -5,8 +5,10 @@ subtitle: "Benchmarking countries around the globe"
 image: "/img/Data_Price.png"
 bigimg: "/img/Data_Price.png"
 share-img: "/img/Data_Price.png"
+cover: /images/post_images/Data_Price.webp
 date: 2021-12-01 00:53:00 +0600
-category: tutorial
+categories: 
+  - tech
 tags:
   - Tableau
   - Analytics

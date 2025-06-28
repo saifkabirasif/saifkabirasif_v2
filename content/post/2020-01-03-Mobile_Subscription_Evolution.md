@@ -6,8 +6,11 @@ image: "/img/5G_g_2020-01-03.gif"
 bigimg: "/img/5G_g_2020-01-03.gif"
 share-img: "/img/5G_g_2020-01-03.gif"
 date: 2020-01-02 10:53:00 +0600
+cover: /images/post_images/5G_g_2020-01-03.webp
 author: Saif
-category: tech
+categories: 
+  - tech
+  - mobile
 tags:
   - mobile
   - subscription

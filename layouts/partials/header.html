@@ -171,7 +171,7 @@
         {{- end -}}
   
         {{- if $title -}}
-          <a href="{{ "" | relLangURL }}" id="logo">
+          <a href="{{ .Page.RelPermalink }}" id="logo">
             <h1 data-aos="{{ .Site.Params.animation.options.header.title }}">{{ $title }}</h1>
           </a>
         {{- end -}}
@@ -194,7 +194,7 @@
         {{- end -}}
         <h2 id="subtitle-wrap" data-aos="{{ .Site.Params.animation.options.header.subTitle }}">
           {{- if $subtitle -}}
-            <a href="{{ "" | relLangURL }}" id="subtitle">{{ $subtitle | safeHTML }}</a>
+            <a href="{{ .Page.RelPermalink }}" id="subtitle">{{ $subtitle | safeHTML }}</a>
           {{- end -}}
         </h2>
       {{- end -}}

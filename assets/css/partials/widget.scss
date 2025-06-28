@@ -6,9 +6,21 @@
 .tagcloud .tagcloud-count {
     font-size: 8px;
     margin: 0px;
-    color: mediumseagreen;
+    color: var(--color-tag-text);
 }
 
+
+.tag-item .tagcloud-count {
+    font-size: 8px;
+    margin: 0px;
+    color: var(--color-tag-text);
+}
+
+.category-list .tagcloud-count {
+    font-size: 8px;
+    margin: 0px;
+    color: var(--color-tag-text);
+}
 
 
 [data-theme="dark"] .widget-wrap {

@@ -6,14 +6,16 @@ image: "/img/articles/20190525_Orange/0.PNG"
 bigimg: "/img/articles/20190525_Orange/0.PNG"
 share-img: "/img/articles/20190525_Orange/0.PNG"
 date: 2020-05-25 8:53:00 +0600
+cover: /images/post_images/c0.webp
 author: Saif
-category: tutorial
+categories: 
+  - tutorial
 tags:
   - tutorial
   - Highcharts
   - xaringan
   - flipbook
-  - R language
+  - R
 ---
 
 <style>

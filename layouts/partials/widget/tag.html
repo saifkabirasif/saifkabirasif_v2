@@ -13,8 +13,11 @@
       <div class="widget">
         <ul class="tag-list" itemprop="keywords">
           {{- $counter := 0 -}}
-          {{- range .Site.Taxonomies.tags -}}
+          {{- $data := .Site.Taxonomies.tags.ByCount -}}
+
+          {{- range $item:= ($data) -}}
             {{- if lt $counter $.Site.Params.tag_limits -}}
+            {{- $tagCount := len $item.Pages -}}
             <li class="tag-item">
                 <a
                   class="tag-link"
@@ -22,6 +25,7 @@
                   aria-label="{{ i18n "tag" }}: {{ .Page.Title }}"
                 >
                   {{ .Page.Title }}
+                  <span class="tagcloud-count">({{$tagCount}})</span> 
                 </a>
               </li>
               {{- $counter = add $counter 1 -}}

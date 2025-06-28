@@ -5,8 +5,10 @@ subtitle: "Smoke and mirrors aplenty"
 image: "/img/Presentation.png"
 bigimg: "/img/Presentation.png"
 share-img: "/img/Presentation.png"
+cover: /images/post_images/Presentation.webp
 date: 2021-08-26 00:53:00 +0600
-category: tutorial
+categories: 
+  - reflection
 tags:
   - Reflection
   - Analytics

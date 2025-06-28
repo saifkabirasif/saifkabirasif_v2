@@ -13,11 +13,15 @@
       <div class="widget">
         <ul class="category-list">
           {{- $counter := 0 -}}
-          {{- range .Site.Taxonomies.categories -}}
+          {{- $data := .Site.Taxonomies.categories.ByCount -}}
+          {{- range $item := ($data) -}}
             {{- if lt $counter $.Site.Params.category_limits -}}
+              {{- $categoryCount := len $item.Pages -}}
               <li class="category-list-item">
                 <a class="category-list-link" href="{{ .Page.RelPermalink }}"
-                  >{{ .Page.Title }}</a
+                  >{{ .Page.Title }}
+                  <span class="tagcloud-count">({{$categoryCount}})</span> 
+                  </a
                 >
               </li>
               {{- $counter = add $counter 1 -}}

@@ -6,14 +6,14 @@ image: "/img/Pop_Mix-2019-11-26.gif"
 bigimg: "/img/Pop_Mix-2019-11-26.gif"
 share-img: "/img/Pop_Mix-2019-11-26.gif"
 date: 2019-11-28 10:53:00 +0600
+cover: /images/post_images/Pop_Mix-2019-11-26.webp
 author: Saif
-category: tech
+categories: 
+  - Visualization
+  - Bangladesh
 tags:
-  - tech
   - Bangladesh
   - Population
-  - Mix
-  - Distribution
 ---
 
 <style>

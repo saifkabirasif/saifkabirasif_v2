@@ -170,7 +170,7 @@ only_show_capsule_in_index: true # If you have hugo amounts of tags and categori
 
 # RSS output
 rss:
-  limit: 15            # The number of recent articles to be output, write -1 to output all
+  limit: -1            # The number of recent articles to be output, write -1 to output all
   showFullContent: false # output full content or description
   showCopyright: false   # If true, add copyright to the end of article.
 
@@ -389,7 +389,7 @@ algolia_search:
 ########################################
 
 preloader:
-  enable: true
+  enable: false
   text: 
     zh-CN: 少女祈祷中...
     zh-TW: 少女祈禱中...

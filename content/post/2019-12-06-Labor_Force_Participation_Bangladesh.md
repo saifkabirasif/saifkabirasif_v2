@@ -6,14 +6,15 @@ image: "/img/Labor_Force_Particpation_Enhanced_2019-12-06_2.gif"
 bigimg: "/img/Labor_Force_Particpation_Enhanced_2019-12-06_2.gif"
 share-img: "/img/Labor_Force_Particpation_Enhanced_2019-12-06_2.gif"
 date: 2019-12-05 10:53:00 +0600
+cover: /images/post_images/Labor_Force_Particpation_Enhanced_2019-12-06_2.webp
 author: Saif
-category: tech
+categories: 
+  - Bangladesh
+  - Visualization
 tags:
-  - tech
+  - Visualization
   - Bangladesh
   - Labor
-  - Force
-  - Female
   - Empowerment
 ---
 

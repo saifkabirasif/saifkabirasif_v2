@@ -8,11 +8,11 @@ import sharpOptimizeImages from 'gulp-sharp-optimize-images';
 
 export async function minimize_image(){
     
-    const imgSrc = 'static/images/**/*.{jpg,jpeg,png,gif,svg}';
+    const imgSrc = 'source_image/images/**/*.{jpg,jpeg,png,gif,svg}';
     const imgDst = 'static/images/';
     
     return src(imgSrc,{encoding: false})
-    .pipe(changed('static/images/**'))
+    .pipe(changed('static/images/**',{extension: '.webp'}))
     .pipe(imagemin([
         gifsicle({ interlaced: true }),
         mozjpeg({ quality: 75, progressive: true }),
@@ -32,7 +32,7 @@ export async function minimize_image(){
 }
 
 export function watchlist(){
-    watch('static/images/**/*.{jpg,jpeg,png,gif,svg}',minimize_image)
+    watch('source_image/images/**/*.{jpg,jpeg,png,gif,svg}',minimize_image)
 }
 
 

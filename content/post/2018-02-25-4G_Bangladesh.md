@@ -7,6 +7,10 @@ bigimg: "/img/4G.png"
 share-img: "/img/4G.png"
 date: 2018-02-25 10:53:00 +0600
 author: Saif
+cover: /images/post_images/4G.webp
+categories: 
+  - tech
+  - mobile
 category: tech
 tags:
   - tech

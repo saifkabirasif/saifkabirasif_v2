@@ -8,3 +8,5 @@ public/
 .DS_Store
 
 *.code-workspace
+
+source_image/
