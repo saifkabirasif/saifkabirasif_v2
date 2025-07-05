@@ -540,9 +540,9 @@ share:
 home_categories:
   enable: false
   content:
-    - categories: Test # string (single-layer category) or array (multi-layer category)
+    - categories: Tech # string (single-layer category) or array (multi-layer category)
       cover: # empty means random cover
-    - categories: B
+    - categories: Gaming
       cover:
 
 ########################################

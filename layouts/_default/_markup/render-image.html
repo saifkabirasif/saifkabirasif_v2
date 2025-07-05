@@ -1,4 +1,51 @@
-<img src="{{ .Destination | safeURL }}"
+<!-- <img src="{{ .Destination | safeURL }}"
   {{- with .PlainText }} alt="{{ . }}"{{ end -}}
   {{- with .Title }} title="{{ . }}"{{ end -}}
->
+> -->
+
+{{- $respSizes := slice "320" "640" "960" "1280" "1600" "1920" -}}
+{{- $alt := .Text -}}
+{{- $caption := .Title -}}
+{{- $src := .Destination | safeURL -}}
+{{- $imgBd5 := md5 $src -}}
+{{- $dataSzes := "(min-width: 1024px) 100vw, 50vw" -}}
+{{- $holder := "GIP" -}}
+{{- $hint := "photo" -}}
+{{- $filter := "box" -}}
+{{- $imgClass := "w-full h-auto shadow animate-fade" -}}
+
+{{- if .Page.Resources.GetMatch $src -}}
+	{{ with .Page.Resources.GetMatch $src }}
+		{{- $divClass := print "relative bigImgDiv imgB-" $imgBd5 "-" $holder -}}
+		{{- $imgRsc := . -}}
+		{{- $actualImg := $imgRsc.Process (print "resize 640x webp " $filter) -}}
+		<div class="{{ $divClass }}" data-pagefind-ignore>
+			<picture data-pagefind-ignore>
+				<source type="image/webp" srcset="
+				{{- with $respSizes -}}
+					{{- range $i, $e := . -}}
+						{{- if ge $imgRsc.Width . -}}
+							{{- if $i }}, {{ end -}}{{- ($imgRsc.Process (print "resize " . "x webp " $hint " " $filter) ).RelPermalink }} {{ . }}w
+						{{- end -}}
+					{{- end -}}
+				{{- end -}}" sizes="{{ $dataSzes }}" />
+				<source type="image/jpeg" srcset="
+				{{- with $respSizes -}}
+					{{- range $i, $e := . -}}
+						{{- if ge $imgRsc.Width . -}}
+							{{- if $i }}, {{ end -}}{{- ($imgRsc.Process (print "resize " . "x jpg " $filter) ).RelPermalink }} {{ . }}w
+						{{- end -}}
+					{{- end -}}
+				{{- end -}}" sizes="{{ $dataSzes }}" />
+				<img class="{{ $imgClass }}" src="{{ $actualImg.RelPermalink }}" width="{{ $imgRsc.Width }}" height="{{ $imgRsc.Height }}" alt="{{ $alt }}" title="{{ $alt }}" loading="lazy" data-pagefind-ignore />
+			</picture>
+		</div>
+	{{- end -}}
+{{- else -}}
+	<p class="ctr legal"><em>Image unavailable.</em></p>
+  <img src="{{ .Destination | safeURL }}"
+  {{- with .PlainText }} alt="{{ . }}"{{ end -}}
+  {{- with .Title }} title="{{ . }}"{{ end -}}
+  >
+{{- end -}}
+{{- with $caption -}}<p class="img-caption">{{ $caption | $.Page.RenderString }}</p>{{- end }}
