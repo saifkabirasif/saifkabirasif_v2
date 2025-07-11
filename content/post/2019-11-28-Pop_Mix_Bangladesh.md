@@ -27,6 +27,6 @@ tags:
 
 This is the fourth entry in my series of Visualizing Bangladesh. This time an animated chart of population mix over the years. Bangladesh will be primed with youth working population between 2020 to 2030. It is hammer time for economic progress.
 
-![Population Mix over the Years](/img/Pop_Mix-2019-11-26.gif)
+![Population Mix over the Years](/images/post_images/Pop_Mix-2019-11-26.webp)
 
 Data Source: World Bank (2019 November)

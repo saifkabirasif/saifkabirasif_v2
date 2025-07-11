@@ -41,6 +41,6 @@ Few Notes:
 * Bangladesh 4G adoption is shown as 2015 as Ollo claimed to launch LTE that year in some sites. But mass adoption occurred in 2018 February when Grameenphone, Robi Axiata and Banglalink launched LTE.
 * Field trials or proof of concepts are excluded. Only commercial launch announcements (even with very minuscule coverage) is included
 
-![Wireless mobile technology adoption](/img/Launch_2.gif)
+![Wireless mobile technology adoption](/images/post_images/Launch_2.webp)
 
 

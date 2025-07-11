@@ -32,6 +32,6 @@ tags:
 
 This is the third entry in my series of Visualizing Bangladesh. This time an animated chart of mobile telecom subscriber trend with key events from 2001 onwards.
 
-![Mobile Telecom Subscriber Trend](/img/Telco_Subs-2019-11-08.gif)
+![Mobile Telecom Subscriber Trend](/images/post_images/Telco_Subs-2019-11-08.webp)
 
 Mobile telephony in Bangladesh actually started in 1989 but due to subscriber data unavailability, I have to start from 2001. If any kind soul has the data of yester years and willing to share,  do give me a knock.

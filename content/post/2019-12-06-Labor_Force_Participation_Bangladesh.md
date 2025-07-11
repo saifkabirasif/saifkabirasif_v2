@@ -31,6 +31,6 @@ This is the fifth entry in my series of Visualizing Bangladesh. This time an ani
 
 Interestingly, male participation rate is declining (>4pp in last decade). Are we becoming lazy? 
 
-![Labor Participation Rate](/img/Labor_Force_Particpation_Enhanced_2019-12-06_2.gif)
+![Labor Participation Rate](/images/post_images/Labor_Force_Particpation_Enhanced_2019-12-06_2.webp)
 
 Data Source: ILO (2019 December)

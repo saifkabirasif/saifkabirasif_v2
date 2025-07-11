@@ -43,6 +43,6 @@ Tools used:
 - R for visualization
 - Several node.js packages for image optimization as I have limited space on server
 
-![Mobile subscriptions](/img/5G_g_2020-01-03.gif)
+![Mobile subscriptions](/images/post_images/5G_g_2020-01-03.webp)
 
 

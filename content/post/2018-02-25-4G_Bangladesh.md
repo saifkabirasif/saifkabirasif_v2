@@ -35,7 +35,7 @@ So, lets check how the experience fares. The test has been performed at 6:30 PM 
 
 ### Test Results
 
-![Video Experience](/img/4G_Test.png)
+![Video Experience](/images/post_images/4G_Test.webp)
 
 
 
